@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Poncho_rUVot-rescue)(type Legacy)(uri ${KIPRJMOD}/Poncho_rUVot-rescue.lib)(options "")(descr ""))
+  (lib (name conectores-rescue)(type Legacy)(uri C:/Proyectos/conectores/conectores-rescue.lib)(options "")(descr ""))
+)
