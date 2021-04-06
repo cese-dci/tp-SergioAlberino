@@ -1,12 +1,17 @@
-TITULO PONCHO
-=============
+﻿Poncho distribuidor para Robot rUVot
+====================================
 
-<<Colocar información mínima y propósito del Poncho. La información completa puede estar en la wiki.>>
+Placa para el robot "rUVot". Se trata de un pequeño robot movil para inspección y desinfección por UV. El mismo tiene un funcionamiento autónomo o puede manejarse en modo teleoperado por Bluetooth
+
+
+La finalidad de esta Placa es la de cumplir funciones de  "distribuidora" de los pines de la EDU-CIA para interconectar los sensores y actuadores del robot de inspección y desinfección por UV. 
+Permite conectar todo en forma ordenada y modular. 
+El dongle Bluetooth se conecta a esta placa.
+
 
 URL: (URL en la wiki de la CIAA)
-FUNCIÓN: Para qué sirve el Poncho.
-AUTORES/INSTITUCIONES: 
+FUNCIÓN: Placa "distribuidora" de los pines de la EDU-CIA para interconectar los sensores y actuadores de un robot de inspección y desinfección por UV
+AUTORES/INSTITUCIONES: Sergio Alberino / GIAR - UTN.FRBA
 
 
 
-<<Detalle y explicación de directorios o archivos adicionales que se incorporen.>>

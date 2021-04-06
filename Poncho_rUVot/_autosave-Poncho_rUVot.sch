@@ -4,13 +4,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Poncho Básico (Editar y colocar el nombre final)"
+Title "Poncho rUVot - Sergio Alberino"
 Date "2016-08-07"
 Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
-Comment1 "https://github.com/ciaa/Ponchos/tree/master/Basico/doc"
+Comment1 "https://github.com/cese-dci/tp-SergioAlberino.git"
 Comment2 "Autores y Licencia del modelo (Diego Brengi - UNLaM)"
-Comment3 "Autor del poncho (COMPLETAR NOMBRE Y APELLIDO). Ver directorio \"doc\""
+Comment3 "Autor del poncho: sergio Alberino"
 Comment4 ""
 $EndDescr
 $Comp
@@ -79,8 +79,6 @@ F 3 "" H 3250 3950 60  0000 C CNN
 	1    3250 3950
 	1    0    0    -1  
 $EndComp
-Text Notes 650  7650 0    60   ~ 0
-Luego de abrir el nuevo proyecto:\n1)Editar datos del rótulo.\n2)Editar los archivos del subdirectorio "doc".\n2.1) Agregarse en el archivo de licencia.\n2.2) Colocar info mínima del Poncho en el LEEME.txt\n2.3) Colocar info mínima en el CAMBIOS.txt
 $Comp
 L Poncho_rUVot-rescue:GND #PWR06
 U 1 1 57A7A207
@@ -1072,4 +1070,6 @@ Wire Notes Line
 	9050 750  10950 750 
 Wire Notes Line
 	9050 2000 10950 2000
+Text Notes 650  7650 0    60   ~ 0
+\n2)Editar los archivos del subdirectorio "doc".\n2.1) Agregarse en el archivo de licencia.\n2.2) Colocar info mínima del Poncho en el LEEME.txt\n2.3) Colocar info mínima en el CAMBIOS.txt
 $EndSCHEMATC
