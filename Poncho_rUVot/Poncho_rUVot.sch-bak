@@ -38,173 +38,179 @@ $EndComp
 $Comp
 L Poncho_rUVot-rescue:+3.3V #PWR01
 U 1 1 560EB699
-P 1100 1100
-F 0 "#PWR01" H 1100 1060 30  0001 C CNN
-F 1 "+3.3V" H 1100 1210 30  0000 C CNN
-F 2 "" H 1100 1100 60  0000 C CNN
-F 3 "" H 1100 1100 60  0000 C CNN
-	1    1100 1100
+P 1100 1300
+F 0 "#PWR01" H 1100 1260 30  0001 C CNN
+F 1 "+3.3V" H 1100 1410 30  0000 C CNN
+F 2 "" H 1100 1300 60  0000 C CNN
+F 3 "" H 1100 1300 60  0000 C CNN
+	1    1100 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Poncho_rUVot-rescue:+5V #PWR02
 U 1 1 560EB7BE
-P 3200 1050
-F 0 "#PWR02" H 3200 1140 20  0001 C CNN
-F 1 "+5V" H 3200 1200 30  0000 C CNN
-F 2 "" H 3200 1050 60  0000 C CNN
-F 3 "" H 3200 1050 60  0000 C CNN
-	1    3200 1050
+P 3200 1250
+F 0 "#PWR02" H 3200 1340 20  0001 C CNN
+F 1 "+5V" H 3200 1400 30  0000 C CNN
+F 2 "" H 3200 1250 60  0000 C CNN
+F 3 "" H 3200 1250 60  0000 C CNN
+	1    3200 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Poncho_rUVot-rescue:PWR_FLAG #FLG04
 U 1 1 560EDE73
-P 1000 4600
-F 0 "#FLG04" H 1000 4695 30  0001 C CNN
-F 1 "PWR_FLAG" H 1000 4780 30  0000 C CNN
-F 2 "" H 1000 4600 60  0000 C CNN
-F 3 "" H 1000 4600 60  0000 C CNN
-	1    1000 4600
+P 1000 4800
+F 0 "#FLG04" H 1000 4895 30  0001 C CNN
+F 1 "PWR_FLAG" H 1000 4980 30  0000 C CNN
+F 2 "" H 1000 4800 60  0000 C CNN
+F 3 "" H 1000 4800 60  0000 C CNN
+	1    1000 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Poncho_rUVot-rescue:+5VP #PWR05
 U 1 1 560EE7D3
-P 3250 4200
-F 0 "#PWR05" H 3250 4290 20  0001 C CNN
-F 1 "+5VP" H 3250 4350 30  0000 C CNN
-F 2 "" H 3250 4200 60  0000 C CNN
-F 3 "" H 3250 4200 60  0000 C CNN
-	1    3250 4200
+P 3250 4400
+F 0 "#PWR05" H 3250 4490 20  0001 C CNN
+F 1 "+5VP" H 3250 4550 30  0000 C CNN
+F 2 "" H 3250 4400 60  0000 C CNN
+F 3 "" H 3250 4400 60  0000 C CNN
+	1    3250 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Poncho_rUVot-rescue:GND #PWR06
 U 1 1 57A7A207
-P 3000 3350
-F 0 "#PWR06" H 3000 3350 30  0001 C CNN
-F 1 "GND" H 3000 3280 30  0001 C CNN
-F 2 "" H 3000 3350 60  0000 C CNN
-F 3 "" H 3000 3350 60  0000 C CNN
-	1    3000 3350
+P 3000 3550
+F 0 "#PWR06" H 3000 3550 30  0001 C CNN
+F 1 "GND" H 3000 3480 30  0001 C CNN
+F 2 "" H 3000 3550 60  0000 C CNN
+F 3 "" H 3000 3550 60  0000 C CNN
+	1    3000 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 1350 3000 2150
+	3000 1550 3000 2350
 Wire Wire Line
-	3000 3050 2800 3050
-Connection ~ 3000 3150
+	3000 3250 2800 3250
+Connection ~ 3000 3350
+Wire Wire Line
+	3000 2950 2800 2950
+Connection ~ 3000 3250
+Wire Wire Line
+	3000 2850 2800 2850
+Connection ~ 3000 2950
 Wire Wire Line
 	3000 2750 2800 2750
-Connection ~ 3000 3050
+Connection ~ 3000 2850
 Wire Wire Line
 	3000 2650 2800 2650
 Connection ~ 3000 2750
 Wire Wire Line
-	3000 2550 2800 2550
+	3000 2350 2800 2350
 Connection ~ 3000 2650
 Wire Wire Line
-	3000 2450 2800 2450
-Connection ~ 3000 2550
-Wire Wire Line
-	3000 2150 2800 2150
+	2800 2450 3000 2450
 Connection ~ 3000 2450
 Wire Wire Line
-	2800 2250 3000 2250
-Connection ~ 3000 2250
+	2800 2550 3000 2550
+Connection ~ 3000 2550
 Wire Wire Line
-	2800 2350 3000 2350
+	2800 1550 3000 1550
 Connection ~ 3000 2350
 Wire Wire Line
-	2800 1350 3000 1350
-Connection ~ 3000 2150
+	1400 4750 1400 4850
 Wire Wire Line
-	1400 4550 1400 4650
+	1400 6450 1600 6450
+Connection ~ 1400 6550
 Wire Wire Line
-	1400 6250 1600 6250
-Connection ~ 1400 6350
+	1400 5950 1600 5950
+Connection ~ 1400 6450
 Wire Wire Line
-	1400 5750 1600 5750
-Connection ~ 1400 6250
+	1400 5850 1600 5850
+Connection ~ 1400 5950
 Wire Wire Line
-	1400 5650 1600 5650
-Connection ~ 1400 5750
+	1400 5550 1600 5550
+Connection ~ 1400 5850
 Wire Wire Line
-	1400 5350 1600 5350
-Connection ~ 1400 5650
+	1400 5450 1600 5450
+Connection ~ 1400 5550
 Wire Wire Line
 	1400 5250 1600 5250
-Connection ~ 1400 5350
+Connection ~ 1400 5450
 Wire Wire Line
-	1400 5050 1600 5050
+	1400 5150 1600 5150
 Connection ~ 1400 5250
 Wire Wire Line
 	1400 4950 1600 4950
-Connection ~ 1400 5050
+Connection ~ 1400 5150
 Wire Wire Line
-	1400 4750 1600 4750
+	1400 4850 1600 4850
 Connection ~ 1400 4950
 Wire Wire Line
-	1400 4650 1600 4650
-Connection ~ 1400 4750
-Wire Wire Line
-	1400 4550 1600 4550
-Connection ~ 1400 4650
+	1400 4750 1600 4750
+Connection ~ 1400 4850
 $Comp
 L Poncho_rUVot-rescue:+3.3VP #PWR07
 U 1 1 57A7A9F3
-P 1250 4300
-F 0 "#PWR07" H 1400 4250 50  0001 C CNN
-F 1 "+3.3VP" H 1250 4400 50  0000 C CNN
-F 2 "" H 1250 4300 50  0000 C CNN
-F 3 "" H 1250 4300 50  0000 C CNN
-	1    1250 4300
+P 1250 4500
+F 0 "#PWR07" H 1400 4450 50  0001 C CNN
+F 1 "+3.3VP" H 1250 4600 50  0000 C CNN
+F 2 "" H 1250 4500 50  0000 C CNN
+F 3 "" H 1250 4500 50  0000 C CNN
+	1    1250 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Poncho_rUVot-rescue:GNDD #PWR012
 U 1 1 57A7AB5F
-P 1400 6500
-F 0 "#PWR012" H 1400 6250 50  0001 C CNN
-F 1 "GNDD" H 1400 6350 50  0000 C CNN
-F 2 "" H 1400 6500 50  0000 C CNN
-F 3 "" H 1400 6500 50  0000 C CNN
-	1    1400 6500
+P 1400 6700
+F 0 "#PWR012" H 1400 6450 50  0001 C CNN
+F 1 "GNDD" H 1400 6550 50  0000 C CNN
+F 2 "" H 1400 6700 50  0000 C CNN
+F 3 "" H 1400 6700 50  0000 C CNN
+	1    1400 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Poncho_rUVot-rescue:GNDA #PWR016
 U 1 1 57A7AE2B
-P 3300 1700
-F 0 "#PWR016" H 3300 1450 50  0001 C CNN
-F 1 "GNDA" H 3300 1550 50  0000 C CNN
-F 2 "" H 3300 1700 50  0000 C CNN
-F 3 "" H 3300 1700 50  0000 C CNN
-	1    3300 1700
+P 3300 1900
+F 0 "#PWR016" H 3300 1650 50  0001 C CNN
+F 1 "GNDA" H 3300 1750 50  0000 C CNN
+F 2 "" H 3300 1900 50  0000 C CNN
+F 3 "" H 3300 1900 50  0000 C CNN
+	1    3300 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Poncho_rUVot-rescue:GNDA #PWR017
 U 1 1 57A7AE5D
-P 1350 1600
-F 0 "#PWR017" H 1350 1350 50  0001 C CNN
-F 1 "GNDA" H 1350 1450 50  0000 C CNN
-F 2 "" H 1350 1600 50  0000 C CNN
-F 3 "" H 1350 1600 50  0000 C CNN
-	1    1350 1600
+P 1350 1800
+F 0 "#PWR017" H 1350 1550 50  0001 C CNN
+F 1 "GNDA" H 1350 1650 50  0000 C CNN
+F 2 "" H 1350 1800 50  0000 C CNN
+F 3 "" H 1350 1800 50  0000 C CNN
+	1    1350 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 1550 1350 1550
+	1600 1750 1350 1750
 Wire Wire Line
-	1350 1550 1350 1600
+	1350 1750 1350 1800
 Wire Wire Line
-	2800 1550 2850 1550
+	2800 1750 2850 1750
 Wire Wire Line
-	2850 1550 2850 1650
+	2850 1750 2850 1850
 Wire Wire Line
-	2850 2050 2800 2050
+	2850 2250 2800 2250
+Wire Wire Line
+	2800 2150 2850 2150
+Connection ~ 2850 2150
+Wire Wire Line
+	2800 2050 2850 2050
+Connection ~ 2850 2050
 Wire Wire Line
 	2800 1950 2850 1950
 Connection ~ 2850 1950
@@ -212,33 +218,25 @@ Wire Wire Line
 	2800 1850 2850 1850
 Connection ~ 2850 1850
 Wire Wire Line
-	2800 1750 2850 1750
-Connection ~ 2850 1750
+	3300 1850 3300 1900
 Wire Wire Line
-	2800 1650 2850 1650
-Connection ~ 2850 1650
+	1600 4650 1250 4650
 Wire Wire Line
-	3300 1650 3300 1700
+	1250 4650 1250 4500
 Wire Wire Line
-	1600 4450 1250 4450
+	2800 4650 3250 4650
 Wire Wire Line
-	1250 4450 1250 4300
+	3250 4650 3250 4400
 Wire Wire Line
-	2800 4450 3250 4450
+	1100 1450 1100 1300
 Wire Wire Line
-	3250 4450 3250 4200
+	2800 1450 3200 1450
 Wire Wire Line
-	1100 1250 1100 1100
+	3200 1450 3200 1250
 Wire Wire Line
-	2800 1250 3200 1250
+	1100 1450 1600 1450
 Wire Wire Line
-	3200 1250 3200 1050
-Wire Wire Line
-	1100 1250 1600 1250
-Wire Wire Line
-	2800 3150 3000 3150
-NoConn ~ 2800 4550
-NoConn ~ 2800 4650
+	2800 3350 3000 3350
 NoConn ~ 2800 4750
 NoConn ~ 2800 4850
 NoConn ~ 2800 4950
@@ -249,75 +247,77 @@ NoConn ~ 2800 5350
 NoConn ~ 2800 5450
 NoConn ~ 2800 5550
 NoConn ~ 2800 5650
-NoConn ~ 1600 4850
-NoConn ~ 1600 5150
-NoConn ~ 1600 5450
-NoConn ~ 1600 5550
-NoConn ~ 1600 1350
-NoConn ~ 1600 1450
+NoConn ~ 2800 5750
+NoConn ~ 2800 5850
+NoConn ~ 1600 5050
+NoConn ~ 1600 5350
+NoConn ~ 1600 5650
+NoConn ~ 1600 5750
+NoConn ~ 1600 1550
 NoConn ~ 1600 1650
-NoConn ~ 1600 1750
 NoConn ~ 1600 1850
 NoConn ~ 1600 1950
 NoConn ~ 1600 2050
-NoConn ~ 1600 2550
-NoConn ~ 1600 2650
+NoConn ~ 1600 2150
+NoConn ~ 1600 2250
+NoConn ~ 1600 2750
 NoConn ~ 1600 2850
 NoConn ~ 1600 3050
-NoConn ~ 1600 3150
-NoConn ~ 2800 2850
-NoConn ~ 2800 2950
-NoConn ~ 2800 1450
+NoConn ~ 1600 3250
+NoConn ~ 1600 3350
+NoConn ~ 2800 3050
+NoConn ~ 2800 3150
+NoConn ~ 2800 1650
 Wire Wire Line
-	3000 3150 3000 3350
+	3000 3350 3000 3550
 Wire Wire Line
-	3000 3050 3000 3150
+	3000 3250 3000 3350
 Wire Wire Line
-	3000 2750 3000 3050
+	3000 2950 3000 3250
+Wire Wire Line
+	3000 2850 3000 2950
+Wire Wire Line
+	3000 2750 3000 2850
 Wire Wire Line
 	3000 2650 3000 2750
 Wire Wire Line
-	3000 2550 3000 2650
-Wire Wire Line
 	3000 2450 3000 2550
 Wire Wire Line
-	3000 2250 3000 2350
+	3000 2550 3000 2650
 Wire Wire Line
 	3000 2350 3000 2450
 Wire Wire Line
-	3000 2150 3000 2250
+	1400 6550 1400 6700
 Wire Wire Line
-	1400 6350 1400 6500
+	1400 6550 1600 6550
 Wire Wire Line
-	1400 6350 1600 6350
+	1400 6450 1400 6550
 Wire Wire Line
-	1400 6250 1400 6350
+	1400 5950 1400 6450
 Wire Wire Line
-	1400 5750 1400 6250
+	1400 5850 1400 5950
 Wire Wire Line
-	1400 5650 1400 5750
+	1400 5550 1400 5850
 Wire Wire Line
-	1400 5350 1400 5650
+	1400 5450 1400 5550
 Wire Wire Line
-	1400 5250 1400 5350
+	1400 5250 1400 5450
 Wire Wire Line
-	1400 5050 1400 5250
+	1400 5150 1400 5250
 Wire Wire Line
-	1400 4950 1400 5050
+	1400 4950 1400 5150
 Wire Wire Line
-	1400 4750 1400 4950
+	1400 4850 1400 4950
 Wire Wire Line
-	1400 4650 1400 4750
+	2850 2150 2850 2250
+Wire Wire Line
+	2850 2050 2850 2150
 Wire Wire Line
 	2850 1950 2850 2050
 Wire Wire Line
 	2850 1850 2850 1950
 Wire Wire Line
-	2850 1750 2850 1850
-Wire Wire Line
-	2850 1650 2850 1750
-Wire Wire Line
-	2850 1650 3300 1650
+	2850 1850 3300 1850
 $Comp
 L conectores-rescue:+5V-power #PWR0105
 U 1 1 6045382A
@@ -341,10 +341,10 @@ F 3 "" H 5900 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:Conn_01x04-Connector_Generic P5
+L conectores-rescue:Conn_01x04-Connector_Generic P3
 U 1 1 60453DD7
 P 6650 1600
-F 0 "P5" H 6568 1917 50  0000 C CNN
+F 0 "P3" H 6568 1917 50  0000 C CNN
 F 1 "Conn_01x04" H 6568 1826 50  0001 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Horizontal" H 6650 1600 50  0001 C CNN
 F 3 "~" H 6650 1600 50  0001 C CNN
@@ -364,10 +364,10 @@ F 3 "" H 7250 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:Conn_01x02-Connector_Generic P7
+L conectores-rescue:Conn_01x02-Connector_Generic P6
 U 1 1 6045EFA2
 P 8000 2200
-F 0 "P7" H 7918 2417 50  0000 C CNN
+F 0 "P6" H 7918 2417 50  0000 C CNN
 F 1 "Conn_01x02" H 7918 2326 50  0001 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal" H 8000 2200 50  0001 C CNN
 F 3 "~" H 8000 2200 50  0001 C CNN
@@ -376,10 +376,10 @@ F 4 "Final de carrera 2" H 7918 2326 50  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:Conn_01x03-Connector_Generic P8
+L conectores-rescue:Conn_01x03-Connector_Generic P4
 U 1 1 60461281
 P 6650 2450
-F 0 "P8" H 6568 2767 50  0000 C CNN
+F 0 "P4" H 6568 2767 50  0000 C CNN
 F 1 "Conn_01x03" H 6568 2676 50  0001 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal" H 6650 2450 50  0001 C CNN
 F 3 "~" H 6650 2450 50  0001 C CNN
@@ -410,10 +410,10 @@ F 3 "" H 5900 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:Conn_01x04-Connector_Generic P10
+L conectores-rescue:Conn_01x04-Connector_Generic P8
 U 1 1 60476D23
 P 10550 2900
-F 0 "P10" H 10468 3217 50  0000 C CNN
+F 0 "P8" H 10468 3217 50  0000 C CNN
 F 1 "Conn_01x04" H 10468 3126 50  0001 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Horizontal" H 10550 2900 50  0001 C CNN
 F 3 "~" H 10550 2900 50  0001 C CNN
@@ -511,10 +511,10 @@ F 3 "" H 9450 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:Conn_01x06-Connector_Generic P9
+L conectores-rescue:Conn_01x06-Connector_Generic P7
 U 1 1 6052981E
 P 10550 1450
-F 0 "P9" H 10468 1867 50  0000 C CNN
+F 0 "P7" H 10468 1867 50  0000 C CNN
 F 1 "Conn_01x06" H 10468 1776 50  0001 C CNN
 F 2 "Connector_PinSocket_1.00mm:PinSocket_1x06_P1.00mm_Vertical" H 10550 1450 50  0001 C CNN
 F 3 "~" H 10550 1450 50  0001 C CNN
@@ -522,7 +522,7 @@ F 4 "Módulo BT" H 10468 1776 50  0000 C CNN "Field4"
 	1    10550 1450
 	1    0    0    -1  
 $EndComp
-Text Notes 9300 900  0    50   ~ 0
+Text Notes 9150 900  0    50   ~ 0
 Conector Módulo Bluetooth
 $Comp
 L conectores-rescue:+5V-power #PWR0117
@@ -548,7 +548,7 @@ F 3 "~" H 7050 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7200 5550 7350 5550
-Text Notes 6500 3950 0    50   ~ 0
+Text Notes 6450 3900 0    50   ~ 0
 RELÉ\n
 Wire Notes Line
 	9050 3750 9050 6250
@@ -591,7 +591,7 @@ $EndComp
 Wire Wire Line
 	7650 4950 7650 5000
 Connection ~ 7650 5000
-Text Notes 9300 2400 0    50   ~ 0
+Text Notes 9200 2400 0    50   ~ 0
 Conector Driver MOTOR
 $Comp
 L conectores-rescue:Screw_Terminal_01x03-Connector J1
@@ -675,10 +675,10 @@ Wire Notes Line
 Text Notes 3950 3900 0    50   ~ 0
 Conector I2C Acelerómetro\n
 $Comp
-L conectores-rescue:Conn_01x08-Connector_Generic P11
+L conectores-rescue:Conn_01x08-Connector_Generic P9
 U 1 1 606C4AD7
 P 5350 4600
-F 0 "P11" H 5268 5117 50  0000 C CNN
+F 0 "P9" H 5268 5117 50  0000 C CNN
 F 1 "Conn_01x08" H 5268 5026 50  0000 C CNN
 F 2 "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical" H 5350 4600 50  0001 C CNN
 F 3 "~" H 5350 4600 50  0001 C CNN
@@ -743,7 +743,7 @@ Wire Wire Line
 	4450 4450 4450 4400
 Wire Notes Line
 	750  750  3550 750 
-Text Notes 850  850  0    50   ~ 0
+Text Notes 900  900  0    50   ~ 0
 Conectores EDU CIAA
 NoConn ~ 5150 5000
 NoConn ~ 5150 4900
@@ -761,32 +761,32 @@ Wire Wire Line
 	4800 4500 5150 4500
 Wire Wire Line
 	4800 4600 5150 4600
-Text Label 1250 2250 2    50   ~ 0
+Text Label 1250 2450 2    50   ~ 0
 SCL
-Text Label 1250 2150 2    50   ~ 0
+Text Label 1250 2350 2    50   ~ 0
 SDA
 Wire Wire Line
-	1250 2250 1600 2250
+	1250 2450 1600 2450
 Wire Wire Line
-	1250 2150 1600 2150
+	1250 2350 1600 2350
 $Comp
 L Poncho_rUVot-rescue:Conn_Poncho2P_2x_20x2 XA101
 U 1 1 57A7A0F8
-P 1850 1550
-F 0 "XA101" H 2150 1950 60  0000 C CNN
-F 1 "Conn_Poncho2P_2x_20x2" H 2200 -150 60  0000 C CNN
-F 2 "footprint:Conn_Poncho_SinBorde" H 1850 1550 60  0001 C CNN
-F 3 "" H 1850 1550 60  0000 C CNN
-F 4 "Harwin" H 1850 1550 60  0001 C CNN "Manf"
-F 5 "M50-3502042" H 1850 1550 60  0001 C CNN "Manf#"
-F 6 "952-1387-ND" H 1850 1550 60  0001 C CNN "Digikey#"
-	1    1850 1550
+P 1850 1750
+F 0 "XA101" H 2150 2150 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 2200 50  60  0000 C CNN
+F 2 "footprint:Conn_Poncho_SinBorde" H 1850 1750 60  0001 C CNN
+F 3 "" H 1850 1750 60  0000 C CNN
+F 4 "Harwin" H 1850 1750 60  0001 C CNN "Manf"
+F 5 "M50-3502042" H 1850 1750 60  0001 C CNN "Manf#"
+F 6 "952-1387-ND" H 1850 1750 60  0001 C CNN "Digikey#"
+	1    1850 1750
 	1    0    0    -1  
 $EndComp
-Text Label 2950 5850 0    50   ~ 0
+Text Label 2950 6050 0    50   ~ 0
 LCD1
 Wire Wire Line
-	2800 5850 2950 5850
+	2800 6050 2950 6050
 Text Label 6700 5550 2    50   ~ 0
 LCD1
 Wire Wire Line
@@ -795,38 +795,38 @@ Wire Wire Line
 	7650 5900 7650 5750
 Text Label 9500 5550 2    50   ~ 0
 LCD2
-Text Label 2950 5950 0    50   ~ 0
-GPIO1
-Text Label 2950 6050 0    50   ~ 0
-GPIO3
-Text Label 2950 6250 0    50   ~ 0
-GPIO7
 Text Label 2950 6150 0    50   ~ 0
-GPIO5
+GPIO1
+Text Label 2950 6250 0    50   ~ 0
+GPIO3
+Text Label 2950 6450 0    50   ~ 0
+GPIO7
 Text Label 2950 6350 0    50   ~ 0
+GPIO5
+Text Label 2950 6550 0    50   ~ 0
 GPIO8
 Wire Wire Line
-	2950 5950 2800 5950
-Wire Wire Line
-	2800 6050 2950 6050
-Wire Wire Line
-	2800 6150 2950 6150
+	2950 6150 2800 6150
 Wire Wire Line
 	2800 6250 2950 6250
 Wire Wire Line
 	2800 6350 2950 6350
+Wire Wire Line
+	2800 6450 2950 6450
+Wire Wire Line
+	2800 6550 2950 6550
 Text Label 10000 2800 2    50   ~ 0
 GPIO5
 Text Label 10000 3000 2    50   ~ 0
 GPIO3
-Text Label 1250 2750 2    50   ~ 0
-T_COL1
 Text Label 1250 2950 2    50   ~ 0
+T_COL1
+Text Label 1250 3150 2    50   ~ 0
 T_FIL3
 Wire Wire Line
-	1250 2750 1600 2750
+	1250 2950 1600 2950
 Wire Wire Line
-	1600 2950 1250 2950
+	1600 3150 1250 3150
 Text Label 10000 3100 2    50   ~ 0
 T_COL1
 Text Label 10000 2900 2    50   ~ 0
@@ -839,14 +839,14 @@ Wire Wire Line
 	10000 3100 10350 3100
 Wire Wire Line
 	10000 2800 10350 2800
-Text Label 1250 2350 2    50   ~ 0
+Text Label 1250 2550 2    50   ~ 0
 RS232_RXD
-Text Label 1250 2450 2    50   ~ 0
+Text Label 1250 2650 2    50   ~ 0
 RS232_TXD
 Wire Wire Line
-	1250 2450 1600 2450
+	1250 2650 1600 2650
 Wire Wire Line
-	1250 2350 1600 2350
+	1250 2550 1600 2550
 Text Label 10000 1550 2    50   ~ 0
 RS232_RXD
 Text Label 10000 1650 2    50   ~ 0
@@ -887,10 +887,10 @@ F 3 "" H 7250 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:Conn_01x02-Connector_Generic P6
+L conectores-rescue:Conn_01x02-Connector_Generic P5
 U 1 1 60729499
 P 8000 1600
-F 0 "P6" H 7918 1817 50  0000 C CNN
+F 0 "P5" H 7918 1817 50  0000 C CNN
 F 1 "Conn_01x02" H 7918 1726 50  0001 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal" H 8000 1600 50  0001 C CNN
 F 3 "~" H 8000 1600 50  0001 C CNN
@@ -903,10 +903,10 @@ Wire Wire Line
 Text Label 7700 1700 2    50   ~ 0
 GPIO6
 $Comp
-L conectores-rescue:Conn_01x03-Connector_Generic P3
+L conectores-rescue:Conn_01x03-Connector_Generic P1
 U 1 1 60731B65
 P 5200 1600
-F 0 "P3" H 5118 1917 50  0000 C CNN
+F 0 "P1" H 5118 1917 50  0000 C CNN
 F 1 "Conn_01x03" H 5118 1826 50  0001 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal" H 5200 1600 50  0001 C CNN
 F 3 "~" H 5200 1600 50  0001 C CNN
@@ -945,10 +945,10 @@ GPIO0
 Wire Wire Line
 	4900 1700 5000 1700
 $Comp
-L conectores-rescue:Conn_01x03-Connector_Generic P4
+L conectores-rescue:Conn_01x03-Connector_Generic P2
 U 1 1 6074F498
 P 5200 2450
-F 0 "P4" H 5118 2767 50  0000 C CNN
+F 0 "P2" H 5118 2767 50  0000 C CNN
 F 1 "Conn_01x03" H 5118 2676 50  0001 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal" H 5200 2450 50  0001 C CNN
 F 3 "~" H 5200 2450 50  0001 C CNN
@@ -987,39 +987,39 @@ GPIO1
 Wire Wire Line
 	4900 2550 5000 2550
 Wire Wire Line
-	1000 4600 1000 4650
+	1000 4800 1000 4850
 Wire Wire Line
-	1000 4650 1400 4650
-Text Label 1200 6050 2    50   ~ 0
+	1000 4850 1400 4850
+Text Label 1200 6250 2    50   ~ 0
 GPIO4
-Text Label 1200 5850 2    50   ~ 0
+Text Label 1200 6050 2    50   ~ 0
 GPIO0
-Text Label 1200 5950 2    50   ~ 0
+Text Label 1200 6150 2    50   ~ 0
 GPIO2
 $Comp
 L Poncho_rUVot-rescue:Conn_Poncho2P_2x_20x2 XA101
 U 2 1 57A7A13C
-P 1850 4750
-F 0 "XA101" H 2150 5150 60  0000 C CNN
-F 1 "Conn_Poncho2P_2x_20x2" H 2200 3050 60  0000 C CNN
-F 2 "footprint:Conn_Poncho_SinBorde" H 1850 4750 60  0001 C CNN
-F 3 "" H 1850 4750 60  0000 C CNN
-F 4 "Harwin" H 1850 4750 60  0001 C CNN "Manf"
-F 5 "M50-3502042" H 1850 4750 60  0001 C CNN "Manf#"
-F 6 "952-1387-ND" H 1850 4750 60  0001 C CNN "Digikey#"
-	2    1850 4750
+P 1850 4950
+F 0 "XA101" H 2150 5350 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 2200 3250 60  0000 C CNN
+F 2 "footprint:Conn_Poncho_SinBorde" H 1850 4950 60  0001 C CNN
+F 3 "" H 1850 4950 60  0000 C CNN
+F 4 "Harwin" H 1850 4950 60  0001 C CNN "Manf"
+F 5 "M50-3502042" H 1850 4950 60  0001 C CNN "Manf#"
+F 6 "952-1387-ND" H 1850 4950 60  0001 C CNN "Digikey#"
+	2    1850 4950
 	1    0    0    -1  
 $EndComp
-Text Label 1200 6150 2    50   ~ 0
+Text Label 1200 6350 2    50   ~ 0
 GPIO6
-Wire Wire Line
-	1200 5850 1600 5850
-Wire Wire Line
-	1200 5950 1600 5950
 Wire Wire Line
 	1200 6050 1600 6050
 Wire Wire Line
 	1200 6150 1600 6150
+Wire Wire Line
+	1200 6250 1600 6250
+Wire Wire Line
+	1200 6350 1600 6350
 Text Label 6350 1700 2    50   ~ 0
 GPIO2
 Wire Wire Line
@@ -1042,10 +1042,10 @@ Wire Notes Line
 	3850 3400 8750 3400
 Text Notes 4000 900  0    50   ~ 0
 Conectores de sensores
-Text Label 2950 5750 0    50   ~ 0
+Text Label 2950 5950 0    50   ~ 0
 LCD2
 Wire Wire Line
-	2800 5750 2950 5750
+	2800 5950 2950 5950
 Wire Wire Line
 	7250 1600 7800 1600
 Wire Notes Line

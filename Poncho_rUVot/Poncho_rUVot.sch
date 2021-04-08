@@ -10,29 +10,29 @@ Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/cese-dci/tp-SergioAlberino.git"
 Comment2 "Autores y Licencia del modelo (Diego Brengi - UNLaM)"
-Comment3 "Autor del poncho: sergio Alberino"
-Comment4 ""
+Comment3 "Autor del poncho: Sergio Alberino"
+Comment4 "Revisor: Pablo Folino"
 $EndDescr
 $Comp
 L Poncho_rUVot-rescue:OSHWA #G102
 U 1 1 560A0A28
-P 5400 7200
-F 0 "#G102" H 5370 7600 60  0001 C CNN
-F 1 "OSHWA" H 5400 7503 60  0001 C CNN
-F 2 "Poncho_Esqueleto:Logo_OSHWA" H 5400 7200 60  0001 C CNN
-F 3 "" H 5400 7200 60  0000 C CNN
-	1    5400 7200
+P 6400 7100
+F 0 "#G102" H 6370 7500 60  0001 C CNN
+F 1 "OSHWA" H 6400 7403 60  0001 C CNN
+F 2 "Poncho_Esqueleto:Logo_OSHWA" H 6400 7100 60  0001 C CNN
+F 3 "" H 6400 7100 60  0000 C CNN
+	1    6400 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Poncho_rUVot-rescue:Logo_Poncho #G101
 U 1 1 560CFFC0
-P 4750 7150
-F 0 "#G101" H 4700 6750 60  0001 C CNN
-F 1 "Logo_Poncho" H 4950 6750 60  0001 C CNN
-F 2 "Poncho_Esqueleto:Logo_Poncho" H 4750 7150 60  0001 C CNN
-F 3 "" H 4750 7150 60  0001 C CNN
-	1    4750 7150
+P 5750 7050
+F 0 "#G101" H 5700 6650 60  0001 C CNN
+F 1 "Logo_Poncho" H 5950 6650 60  0001 C CNN
+F 2 "Poncho_Esqueleto:Logo_Poncho" H 5750 7050 60  0001 C CNN
+F 3 "" H 5750 7050 60  0001 C CNN
+	1    5750 7050
 	1    0    0    -1  
 $EndComp
 $Comp

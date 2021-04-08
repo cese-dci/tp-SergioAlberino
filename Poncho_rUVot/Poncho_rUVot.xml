@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Proyectos\tp-SergioAlberino\Poncho_rUVot\Poncho_rUVot.sch</source>
+    <date>08/04/2021 06:29:59 p.m.</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Poncho rUVot - Sergio Alberino</title>
+        <company>Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA</company>
+        <rev>1.0</rev>
+        <date>2016-08-07</date>
+        <source>Poncho_rUVot.sch</source>
+        <comment number="1" value="https://github.com/cese-dci/tp-SergioAlberino.git"/>
+        <comment number="2" value="Autores y Licencia del modelo (Diego Brengi - UNLaM)"/>
+        <comment number="3" value="Autor del poncho: sergio Alberino"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P3">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4">Button</field>
+      </fields>
+      <libsource lib="conectores-rescue" part="Conn_01x04-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60453DD7</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4">Final de carrera 2</field>
+      </fields>
+      <libsource lib="conectores-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6045EFA2</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4">sensor de movimiento</field>
+      </fields>
+      <libsource lib="conectores-rescue" part="Conn_01x03-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60461281</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4">Motor</field>
+      </fields>
+      <libsource lib="conectores-rescue" part="Conn_01x04-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60476D23</tstamp>
+    </comp>
+    <comp ref="BZ1">
+      <value>Buzzer</value>
+      <footprint>Buzzers_Beepers:BUZZER</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="conectores-rescue" part="Buzzer-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604E6A0D</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC548</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="conectores-rescue" part="BC548-Transistor_BJT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604E7631</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="conectores-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604EDEF3</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinSocket_1.00mm:PinSocket_1x06_P1.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4">Módulo BT</field>
+      </fields>
+      <libsource lib="conectores-rescue" part="Conn_01x06-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6052981E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="conectores-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60530A27</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>G5V-1</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-3_P5.08mm</footprint>
+      <datasheet>http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf</datasheet>
+      <libsource lib="conectores-rescue" part="G5V-1-Relay" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60534F55</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-3_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="conectores-rescue" part="Screw_Terminal_01x03-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606412BA</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diodes_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="conectores-rescue" part="1N4148-Diode" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60659DD3</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="conectores-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6069C7E8</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="conectores-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6069CC76</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>Conn_01x08</value>
+      <footprint>Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="conectores-rescue" part="Conn_01x08-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C4AD7</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC548</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="conectores-rescue" part="BC548-Transistor_BJT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60530A06</tstamp>
+    </comp>
+    <comp ref="XA101">
+      <value>Conn_Poncho2P_2x_20x2</value>
+      <footprint>footprint:Conn_Poncho_SinBorde</footprint>
+      <fields>
+        <field name="Digikey#">952-1387-ND</field>
+        <field name="Manf">Harwin</field>
+        <field name="Manf#">M50-3502042</field>
+      </fields>
+      <libsource lib="Poncho_rUVot-rescue" part="Conn_Poncho2P_2x_20x2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A7A0F8</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4">Final de carrera 2</field>
+      </fields>
+      <libsource lib="conectores-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60729499</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4">Sensor Frontal</field>
+      </fields>
+      <libsource lib="conectores-rescue" part="Conn_01x03-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60731B65</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4">Sensor Lateral</field>
+      </fields>
+      <libsource lib="conectores-rescue" part="Conn_01x03-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6074F498</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Poncho_rUVot-rescue" part="Conn_Poncho2P_2x_20x2">
+      <fields>
+        <field name="Reference">XA</field>
+        <field name="Value">Conn_Poncho2P_2x_20x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3.3V" type="power_out"/>
+        <pin num="2" name="+5V" type="power_out"/>
+        <pin num="3" name="RESET" type="input"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="ISP" type="passive"/>
+        <pin num="6" name="WAKEUP" type="input"/>
+        <pin num="7" name="GNDA" type="passive"/>
+        <pin num="8" name="GNDA" type="passive"/>
+        <pin num="9" name="ADC3" type="passive"/>
+        <pin num="10" name="GNDA" type="passive"/>
+        <pin num="11" name="ADC2" type="passive"/>
+        <pin num="12" name="GNDA" type="passive"/>
+        <pin num="13" name="ADC1" type="passive"/>
+        <pin num="14" name="GNDA" type="passive"/>
+        <pin num="15" name="DAC" type="passive"/>
+        <pin num="16" name="GNDA" type="passive"/>
+        <pin num="17" name="VDDA" type="power_out"/>
+        <pin num="18" name="GNDA" type="passive"/>
+        <pin num="19" name="i2cSDA" type="passive"/>
+        <pin num="20" name="GND" type="passive"/>
+        <pin num="21" name="i2cSCL" type="passive"/>
+        <pin num="22" name="GND" type="passive"/>
+        <pin num="23" name="rs232RXD" type="passive"/>
+        <pin num="24" name="GND" type="passive"/>
+        <pin num="25" name="rs232TXD" type="passive"/>
+        <pin num="26" name="GND" type="passive"/>
+        <pin num="27" name="canRD" type="passive"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="canTD" type="passive"/>
+        <pin num="30" name="GND" type="passive"/>
+        <pin num="31" name="tecCOL1" type="passive"/>
+        <pin num="32" name="GND" type="passive"/>
+        <pin num="33" name="tecF0" type="passive"/>
+        <pin num="34" name="tecCOL2" type="passive"/>
+        <pin num="35" name="tecF3" type="passive"/>
+        <pin num="36" name="tecF1" type="passive"/>
+        <pin num="37" name="tecF2" type="passive"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="tecCOL0" type="passive"/>
+        <pin num="40" name="GND" type="passive"/>
+        <pin num="41" name="+3.3V" type="power_out"/>
+        <pin num="42" name="+5V" type="power_out"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="ethRXD1" type="passive"/>
+        <pin num="45" name="GND" type="passive"/>
+        <pin num="46" name="ethTXEN" type="passive"/>
+        <pin num="47" name="GND" type="passive"/>
+        <pin num="48" name="ethMDC" type="passive"/>
+        <pin num="49" name="ethRXD0" type="passive"/>
+        <pin num="50" name="ethCRS" type="passive"/>
+        <pin num="51" name="GND" type="passive"/>
+        <pin num="52" name="ethMDIO" type="passive"/>
+        <pin num="53" name="GND" type="passive"/>
+        <pin num="54" name="ethTXD0" type="passive"/>
+        <pin num="55" name="ethRCLCK" type="passive"/>
+        <pin num="56" name="ethTXD1" type="passive"/>
+        <pin num="57" name="GND" type="passive"/>
+        <pin num="58" name="spiMISO" type="passive"/>
+        <pin num="59" name="GND" type="passive"/>
+        <pin num="60" name="spiSCK" type="passive"/>
+        <pin num="61" name="spiMOSI" type="passive"/>
+        <pin num="62" name="lcd4" type="passive"/>
+        <pin num="63" name="lcdEN" type="passive"/>
+        <pin num="64" name="lcdRS" type="passive"/>
+        <pin num="65" name="GND" type="passive"/>
+        <pin num="66" name="lcd3" type="passive"/>
+        <pin num="67" name="GND" type="passive"/>
+        <pin num="68" name="lcd2" type="passive"/>
+        <pin num="69" name="GPIO0" type="passive"/>
+        <pin num="70" name="lcd1" type="passive"/>
+        <pin num="71" name="GPIO2" type="passive"/>
+        <pin num="72" name="GPIO1" type="passive"/>
+        <pin num="73" name="GPIO4" type="passive"/>
+        <pin num="74" name="GPIO3" type="passive"/>
+        <pin num="75" name="GPIO6" type="passive"/>
+        <pin num="76" name="GPIO5" type="passive"/>
+        <pin num="77" name="GND" type="passive"/>
+        <pin num="78" name="GPIO7" type="passive"/>
+        <pin num="79" name="GND" type="passive"/>
+        <pin num="80" name="GPIO8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conectores-rescue" part="1N4148-Diode">
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148-Diode</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conectores-rescue" part="BC548-Transistor_BJT">
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC548-Transistor_BJT</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conectores-rescue" part="Buzzer-Device">
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conectores-rescue" part="Conn_01x02-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conectores-rescue" part="Conn_01x03-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conectores-rescue" part="Conn_01x04-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conectores-rescue" part="Conn_01x06-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conectores-rescue" part="Conn_01x08-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conectores-rescue" part="G5V-1-Relay">
+      <footprints>
+        <fp>Relay*SPDT*Omron*G5V?1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G5V-1-Relay</field>
+        <field name="Footprint">Relay_THT:Relay_SPDT_Omron_G5V-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conectores-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conectores-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conectores-rescue" part="Screw_Terminal_01x03-Connector">
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Poncho_rUVot-rescue">
+      <uri>C:\Proyectos\tp-SergioAlberino\Poncho_rUVot/Poncho_rUVot-rescue.lib</uri>
+    </library>
+    <library logical="conectores-rescue">
+      <uri>C:/Proyectos/conectores/conectores-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(XA101-Pad3)">
+      <node ref="XA101" pin="3"/>
+    </net>
+    <net code="2" name="Net-(XA101-Pad5)">
+      <node ref="XA101" pin="5"/>
+    </net>
+    <net code="3" name="Net-(XA101-Pad39)">
+      <node ref="XA101" pin="39"/>
+    </net>
+    <net code="4" name="Net-(XA101-Pad37)">
+      <node ref="XA101" pin="37"/>
+    </net>
+    <net code="5" name="Net-(XA101-Pad36)">
+      <node ref="XA101" pin="36"/>
+    </net>
+    <net code="6" name="Net-(XA101-Pad34)">
+      <node ref="XA101" pin="34"/>
+    </net>
+    <net code="7" name="Net-(XA101-Pad33)">
+      <node ref="XA101" pin="33"/>
+    </net>
+    <net code="8" name="Net-(XA101-Pad6)">
+      <node ref="XA101" pin="6"/>
+    </net>
+    <net code="9" name="Net-(XA101-Pad29)">
+      <node ref="XA101" pin="29"/>
+    </net>
+    <net code="10" name="Net-(XA101-Pad27)">
+      <node ref="XA101" pin="27"/>
+    </net>
+    <net code="11" name="/SCL">
+      <node ref="P9" pin="3"/>
+      <node ref="XA101" pin="21"/>
+    </net>
+    <net code="12" name="/SDA">
+      <node ref="P9" pin="4"/>
+      <node ref="XA101" pin="19"/>
+    </net>
+    <net code="13" name="/GPIO8">
+      <node ref="XA101" pin="80"/>
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="14" name="/T_FIL3">
+      <node ref="P8" pin="2"/>
+      <node ref="XA101" pin="35"/>
+    </net>
+    <net code="15" name="/T_COL1">
+      <node ref="XA101" pin="31"/>
+      <node ref="P8" pin="4"/>
+    </net>
+    <net code="16" name="/GPIO3">
+      <node ref="P8" pin="3"/>
+      <node ref="XA101" pin="74"/>
+    </net>
+    <net code="17" name="/GPIO5">
+      <node ref="XA101" pin="76"/>
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="18" name="/GPIO7">
+      <node ref="XA101" pin="78"/>
+      <node ref="P6" pin="2"/>
+    </net>
+    <net code="19" name="/GPIO1">
+      <node ref="XA101" pin="72"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="20" name="Net-(XA101-Pad17)">
+      <node ref="XA101" pin="17"/>
+    </net>
+    <net code="21" name="/LCD2">
+      <node ref="XA101" pin="68"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="P2" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="P5" pin="1"/>
+      <node ref="P4" pin="2"/>
+      <node ref="P6" pin="1"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P7" pin="3"/>
+      <node ref="P1" pin="2"/>
+      <node ref="XA101" pin="20"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="P9" pin="2"/>
+      <node ref="XA101" pin="22"/>
+      <node ref="XA101" pin="24"/>
+      <node ref="XA101" pin="26"/>
+      <node ref="XA101" pin="28"/>
+      <node ref="XA101" pin="30"/>
+      <node ref="XA101" pin="32"/>
+      <node ref="XA101" pin="38"/>
+      <node ref="XA101" pin="4"/>
+      <node ref="XA101" pin="40"/>
+    </net>
+    <net code="23" name="/LCD1">
+      <node ref="R1" pin="2"/>
+      <node ref="XA101" pin="70"/>
+    </net>
+    <net code="24" name="Net-(XA101-Pad9)">
+      <node ref="XA101" pin="9"/>
+    </net>
+    <net code="25" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="K1" pin="9"/>
+      <node ref="D2" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="26" name="Net-(P9-Pad8)">
+      <node ref="P9" pin="8"/>
+    </net>
+    <net code="27" name="Net-(P9-Pad7)">
+      <node ref="P9" pin="7"/>
+    </net>
+    <net code="28" name="Net-(P9-Pad6)">
+      <node ref="P9" pin="6"/>
+    </net>
+    <net code="29" name="Net-(P9-Pad5)">
+      <node ref="P9" pin="5"/>
+    </net>
+    <net code="30" name="Net-(Q1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="31" name="+5V">
+      <node ref="P7" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P9" pin="1"/>
+      <node ref="K1" pin="2"/>
+      <node ref="P3" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="XA101" pin="2"/>
+      <node ref="BZ1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="32" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="33" name="Net-(XA101-Pad15)">
+      <node ref="XA101" pin="15"/>
+    </net>
+    <net code="34" name="Net-(XA101-Pad13)">
+      <node ref="XA101" pin="13"/>
+    </net>
+    <net code="35" name="Net-(XA101-Pad11)">
+      <node ref="XA101" pin="11"/>
+    </net>
+    <net code="36" name="+3V3">
+      <node ref="XA101" pin="1"/>
+    </net>
+    <net code="37" name="Net-(XA101-Pad54)">
+      <node ref="XA101" pin="54"/>
+    </net>
+    <net code="38" name="Net-(XA101-Pad66)">
+      <node ref="XA101" pin="66"/>
+    </net>
+    <net code="39" name="Net-(XA101-Pad64)">
+      <node ref="XA101" pin="64"/>
+    </net>
+    <net code="40" name="Net-(XA101-Pad63)">
+      <node ref="XA101" pin="63"/>
+    </net>
+    <net code="41" name="Net-(XA101-Pad62)">
+      <node ref="XA101" pin="62"/>
+    </net>
+    <net code="42" name="Net-(XA101-Pad61)">
+      <node ref="XA101" pin="61"/>
+    </net>
+    <net code="43" name="Net-(XA101-Pad60)">
+      <node ref="XA101" pin="60"/>
+    </net>
+    <net code="44" name="Net-(XA101-Pad58)">
+      <node ref="XA101" pin="58"/>
+    </net>
+    <net code="45" name="Net-(XA101-Pad56)">
+      <node ref="XA101" pin="56"/>
+    </net>
+    <net code="46" name="Net-(XA101-Pad55)">
+      <node ref="XA101" pin="55"/>
+    </net>
+    <net code="47" name="Net-(XA101-Pad52)">
+      <node ref="XA101" pin="52"/>
+    </net>
+    <net code="48" name="Net-(XA101-Pad50)">
+      <node ref="XA101" pin="50"/>
+    </net>
+    <net code="49" name="Net-(XA101-Pad49)">
+      <node ref="XA101" pin="49"/>
+    </net>
+    <net code="50" name="Net-(XA101-Pad48)">
+      <node ref="XA101" pin="48"/>
+    </net>
+    <net code="51" name="Net-(XA101-Pad46)">
+      <node ref="XA101" pin="46"/>
+    </net>
+    <net code="52" name="Net-(XA101-Pad44)">
+      <node ref="XA101" pin="44"/>
+    </net>
+    <net code="53" name="/GPIO6">
+      <node ref="XA101" pin="75"/>
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="54" name="/GPIO4">
+      <node ref="P3" pin="4"/>
+      <node ref="XA101" pin="73"/>
+    </net>
+    <net code="55" name="/GPIO2">
+      <node ref="XA101" pin="71"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="56" name="/GPIO0">
+      <node ref="XA101" pin="69"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="57" name="Net-(P7-Pad6)">
+      <node ref="P7" pin="6"/>
+    </net>
+    <net code="58" name="Net-(P7-Pad1)">
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="59" name="/RS232_RXD">
+      <node ref="P7" pin="4"/>
+      <node ref="XA101" pin="23"/>
+    </net>
+    <net code="60" name="/RS232_TXD">
+      <node ref="XA101" pin="25"/>
+      <node ref="P7" pin="5"/>
+    </net>
+    <net code="61" name="+5VP">
+      <node ref="XA101" pin="42"/>
+    </net>
+    <net code="62" name="+3.3VP">
+      <node ref="XA101" pin="41"/>
+    </net>
+    <net code="63" name="GNDA">
+      <node ref="XA101" pin="10"/>
+      <node ref="XA101" pin="12"/>
+      <node ref="XA101" pin="14"/>
+      <node ref="XA101" pin="16"/>
+      <node ref="XA101" pin="18"/>
+      <node ref="XA101" pin="8"/>
+      <node ref="XA101" pin="7"/>
+    </net>
+    <net code="64" name="GNDD">
+      <node ref="XA101" pin="79"/>
+      <node ref="XA101" pin="47"/>
+      <node ref="XA101" pin="51"/>
+      <node ref="XA101" pin="53"/>
+      <node ref="XA101" pin="67"/>
+      <node ref="XA101" pin="77"/>
+      <node ref="XA101" pin="57"/>
+      <node ref="XA101" pin="45"/>
+      <node ref="XA101" pin="43"/>
+      <node ref="XA101" pin="59"/>
+      <node ref="XA101" pin="65"/>
+    </net>
+    <net code="65" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="K1" pin="10"/>
+    </net>
+    <net code="66" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="67" name="Net-(BZ1-Pad2)">
+      <node ref="BZ1" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="68" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="K1" pin="1"/>
+    </net>
+    <net code="69" name="Net-(J1-Pad1)">
+      <node ref="K1" pin="5"/>
+      <node ref="J1" pin="1"/>
+      <node ref="K1" pin="6"/>
+    </net>
+  </nets>
+</export>
