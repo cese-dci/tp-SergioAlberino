@@ -152,45 +152,6 @@ X GPIO8 80 950 -1600 200 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# Poncho_rUVot-rescue_GND
-#
-DEF Poncho_rUVot-rescue_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Poncho_rUVot-rescue_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Poncho_rUVot-rescue_GNDA
-#
-DEF Poncho_rUVot-rescue_GNDA #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Poncho_rUVot-rescue_GNDA" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GNDA 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Poncho_rUVot-rescue_GNDD
-#
-DEF Poncho_rUVot-rescue_GNDD #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Poncho_rUVot-rescue_GNDD" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GNDD 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # Poncho_rUVot-rescue_Logo_Poncho
 #
 DEF Poncho_rUVot-rescue_Logo_Poncho #G 0 0 N N 1 F N

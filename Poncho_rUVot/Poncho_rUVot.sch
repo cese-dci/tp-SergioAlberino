@@ -79,17 +79,6 @@ F 3 "" H 3250 4400 60  0000 C CNN
 	1    3250 4400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Poncho_rUVot-rescue:GND #PWR06
-U 1 1 57A7A207
-P 3000 3550
-F 0 "#PWR06" H 3000 3550 30  0001 C CNN
-F 1 "GND" H 3000 3480 30  0001 C CNN
-F 2 "" H 3000 3550 60  0000 C CNN
-F 3 "" H 3000 3550 60  0000 C CNN
-	1    3000 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3000 1550 3000 2350
 Wire Wire Line
@@ -162,63 +151,18 @@ F 3 "" H 1250 4500 50  0000 C CNN
 	1    1250 4500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Poncho_rUVot-rescue:GNDD #PWR012
-U 1 1 57A7AB5F
-P 1400 6700
-F 0 "#PWR012" H 1400 6450 50  0001 C CNN
-F 1 "GNDD" H 1400 6550 50  0000 C CNN
-F 2 "" H 1400 6700 50  0000 C CNN
-F 3 "" H 1400 6700 50  0000 C CNN
-	1    1400 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Poncho_rUVot-rescue:GNDA #PWR016
-U 1 1 57A7AE2B
-P 3300 1900
-F 0 "#PWR016" H 3300 1650 50  0001 C CNN
-F 1 "GNDA" H 3300 1750 50  0000 C CNN
-F 2 "" H 3300 1900 50  0000 C CNN
-F 3 "" H 3300 1900 50  0000 C CNN
-	1    3300 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Poncho_rUVot-rescue:GNDA #PWR017
-U 1 1 57A7AE5D
-P 1350 1800
-F 0 "#PWR017" H 1350 1550 50  0001 C CNN
-F 1 "GNDA" H 1350 1650 50  0000 C CNN
-F 2 "" H 1350 1800 50  0000 C CNN
-F 3 "" H 1350 1800 50  0000 C CNN
-	1    1350 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1600 1750 1350 1750
-Wire Wire Line
-	1350 1750 1350 1800
 Wire Wire Line
 	2800 1750 2850 1750
-Wire Wire Line
-	2850 1750 2850 1850
 Wire Wire Line
 	2850 2250 2800 2250
 Wire Wire Line
 	2800 2150 2850 2150
-Connection ~ 2850 2150
 Wire Wire Line
 	2800 2050 2850 2050
-Connection ~ 2850 2050
 Wire Wire Line
 	2800 1950 2850 1950
-Connection ~ 2850 1950
 Wire Wire Line
 	2800 1850 2850 1850
-Connection ~ 2850 1850
-Wire Wire Line
-	3300 1850 3300 1900
 Wire Wire Line
 	1600 4650 1250 4650
 Wire Wire Line
@@ -308,16 +252,6 @@ Wire Wire Line
 	1400 4950 1400 5150
 Wire Wire Line
 	1400 4850 1400 4950
-Wire Wire Line
-	2850 2150 2850 2250
-Wire Wire Line
-	2850 2050 2850 2150
-Wire Wire Line
-	2850 1950 2850 2050
-Wire Wire Line
-	2850 1850 2850 1950
-Wire Wire Line
-	2850 1850 3300 1850
 $Comp
 L conectores-rescue:+5V-power #PWR0105
 U 1 1 6045382A
@@ -1070,4 +1004,33 @@ Wire Notes Line
 	3550 750  3550 7150
 Wire Notes Line
 	750  750  750  7150
+$Comp
+L conectores-rescue:GND-power #PWR0111
+U 1 1 608EC6E9
+P 1400 6700
+F 0 "#PWR0111" H 1400 6450 50  0001 C CNN
+F 1 "GND" H 1405 6527 50  0000 C CNN
+F 2 "" H 1400 6700 50  0001 C CNN
+F 3 "" H 1400 6700 50  0001 C CNN
+	1    1400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L conectores-rescue:GND-power #PWR0112
+U 1 1 608FA01E
+P 3000 3550
+F 0 "#PWR0112" H 3000 3300 50  0001 C CNN
+F 1 "GND" H 3005 3377 50  0000 C CNN
+F 2 "" H 3000 3550 50  0001 C CNN
+F 3 "" H 3000 3550 50  0001 C CNN
+	1    3000 3550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1600 1750
+NoConn ~ 2850 1750
+NoConn ~ 2850 1850
+NoConn ~ 2850 1950
+NoConn ~ 2850 2050
+NoConn ~ 2850 2150
+NoConn ~ 2850 2250
 $EndSCHEMATC
