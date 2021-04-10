@@ -253,7 +253,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 4850 1400 4950
 $Comp
-L conectores-rescue:+5V-power #PWR0105
+L Poncho_rUVot-rescue:+5V-power-conectores-rescue #PWR0105
 U 1 1 6045382A
 P 5900 1500
 F 0 "#PWR0105" H 5900 1350 50  0001 C CNN
@@ -264,7 +264,7 @@ F 3 "" H 5900 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:GND-power #PWR0106
+L Poncho_rUVot-rescue:GND-power-conectores-rescue #PWR0106
 U 1 1 60453830
 P 5900 1600
 F 0 "#PWR0106" H 5900 1350 50  0001 C CNN
@@ -275,7 +275,7 @@ F 3 "" H 5900 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:Conn_01x04-Connector_Generic P3
+L Poncho_rUVot-rescue:Conn_01x04-Connector_Generic-conectores-rescue P3
 U 1 1 60453DD7
 P 6650 1600
 F 0 "P3" H 6568 1917 50  0000 C CNN
@@ -287,7 +287,7 @@ F 4 "Button" H 6568 1826 50  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:GND-power #PWR0108
+L Poncho_rUVot-rescue:GND-power-conectores-rescue #PWR0108
 U 1 1 6045EF95
 P 7250 2200
 F 0 "#PWR0108" H 7250 1950 50  0001 C CNN
@@ -298,7 +298,7 @@ F 3 "" H 7250 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:Conn_01x02-Connector_Generic P6
+L Poncho_rUVot-rescue:Conn_01x02-Connector_Generic-conectores-rescue P6
 U 1 1 6045EFA2
 P 8000 2200
 F 0 "P6" H 7918 2417 50  0000 C CNN
@@ -310,7 +310,7 @@ F 4 "Final de carrera 2" H 7918 2326 50  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:Conn_01x03-Connector_Generic P4
+L Poncho_rUVot-rescue:Conn_01x03-Connector_Generic-conectores-rescue P4
 U 1 1 60461281
 P 6650 2450
 F 0 "P4" H 6568 2767 50  0000 C CNN
@@ -322,7 +322,7 @@ F 4 "sensor de movimiento" H 6568 2676 50  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:+5V-power #PWR0109
+L Poncho_rUVot-rescue:+5V-power-conectores-rescue #PWR0109
 U 1 1 6046128B
 P 5900 2350
 F 0 "#PWR0109" H 5900 2200 50  0001 C CNN
@@ -333,7 +333,7 @@ F 3 "" H 5900 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:GND-power #PWR0110
+L Poncho_rUVot-rescue:GND-power-conectores-rescue #PWR0110
 U 1 1 60461295
 P 5900 2450
 F 0 "#PWR0110" H 5900 2200 50  0001 C CNN
@@ -344,7 +344,7 @@ F 3 "" H 5900 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:Conn_01x04-Connector_Generic P8
+L Poncho_rUVot-rescue:Conn_01x04-Connector_Generic-conectores-rescue P8
 U 1 1 60476D23
 P 10550 2900
 F 0 "P8" H 10468 3217 50  0000 C CNN
@@ -356,18 +356,18 @@ F 4 "Motor" H 10468 3126 50  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:Buzzer-Device BZ1
+L Poncho_rUVot-rescue:Buzzer-Device-conectores-rescue BZ1
 U 1 1 604E6A0D
 P 10350 4850
 F 0 "BZ1" H 10355 5140 50  0000 C CNN
 F 1 "Buzzer" H 10355 5049 50  0000 C CNN
-F 2 "Buzzers_Beepers:BUZZER" V 10325 4950 50  0001 C CNN
+F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 10325 4950 50  0001 C CNN
 F 3 "~" V 10325 4950 50  0001 C CNN
 	1    10350 4850
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:BC548-Transistor_BJT Q2
+L Poncho_rUVot-rescue:BC548-Transistor_BJT-conectores-rescue Q2
 U 1 1 604E7631
 P 10350 5550
 F 0 "Q2" H 10541 5596 50  0000 L CNN
@@ -378,7 +378,7 @@ F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 10350 5550 50  0001 L 
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:+5V-power #PWR0113
+L Poncho_rUVot-rescue:+5V-power-conectores-rescue #PWR0113
 U 1 1 604E9C31
 P 10450 4100
 F 0 "#PWR0113" H 10450 3950 50  0001 C CNN
@@ -391,7 +391,7 @@ $EndComp
 Wire Wire Line
 	10450 4950 10450 5350
 $Comp
-L conectores-rescue:GND-power #PWR0114
+L Poncho_rUVot-rescue:GND-power-conectores-rescue #PWR0114
 U 1 1 604EC141
 P 10450 5900
 F 0 "#PWR0114" H 10450 5650 50  0001 C CNN
@@ -402,7 +402,7 @@ F 3 "" H 10450 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:R-Device R2
+L Poncho_rUVot-rescue:R-Device-conectores-rescue R2
 U 1 1 604EDEF3
 P 9850 5550
 F 0 "R2" V 9643 5550 50  0000 C CNN
@@ -423,7 +423,7 @@ BUZZER
 Wire Notes Line
 	9050 3750 10950 3750
 $Comp
-L conectores-rescue:+5V-power #PWR0115
+L Poncho_rUVot-rescue:+5V-power-conectores-rescue #PWR0115
 U 1 1 605294A9
 P 9450 1350
 F 0 "#PWR0115" H 9450 1200 50  0001 C CNN
@@ -434,7 +434,7 @@ F 3 "" H 9450 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:GND-power #PWR0116
+L Poncho_rUVot-rescue:GND-power-conectores-rescue #PWR0116
 U 1 1 60529813
 P 9450 1450
 F 0 "#PWR0116" H 9450 1200 50  0001 C CNN
@@ -445,7 +445,7 @@ F 3 "" H 9450 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:Conn_01x06-Connector_Generic P7
+L Poncho_rUVot-rescue:Conn_01x06-Connector_Generic-conectores-rescue P7
 U 1 1 6052981E
 P 10550 1450
 F 0 "P7" H 10468 1867 50  0000 C CNN
@@ -459,7 +459,7 @@ $EndComp
 Text Notes 9150 900  0    50   ~ 0
 Conector Módulo Bluetooth
 $Comp
-L conectores-rescue:+5V-power #PWR0117
+L Poncho_rUVot-rescue:+5V-power-conectores-rescue #PWR0117
 U 1 1 60530A10
 P 7650 4100
 F 0 "#PWR0117" H 7650 3950 50  0001 C CNN
@@ -470,7 +470,7 @@ F 3 "" H 7650 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:R-Device R1
+L Poncho_rUVot-rescue:R-Device-conectores-rescue R1
 U 1 1 60530A27
 P 7050 5550
 F 0 "R1" V 6843 5550 50  0000 C CNN
@@ -512,12 +512,12 @@ Wire Wire Line
 	8050 5100 8050 5000
 Connection ~ 8150 4400
 $Comp
-L conectores-rescue:G5V-1-Relay K1
+L Poncho_rUVot-rescue:G5V-1-Relay-conectores-rescue K1
 U 1 1 60534F55
 P 7850 4700
 F 0 "K1" H 8280 4700 50  0000 L CNN
 F 1 "G5V-1" H 8280 4655 50  0001 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 8280 4655 50  0001 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron_G5V-1" H 8280 4655 50  0001 L CNN
 F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf" H 7850 4700 50  0001 C CNN
 	1    7850 4700
 	1    0    0    -1  
@@ -528,7 +528,7 @@ Connection ~ 7650 5000
 Text Notes 9200 2400 0    50   ~ 0
 Conector Driver MOTOR
 $Comp
-L conectores-rescue:Screw_Terminal_01x03-Connector J1
+L Poncho_rUVot-rescue:Screw_Terminal_01x03-Connector-conectores-rescue J1
 U 1 1 606412BA
 P 8600 4150
 F 0 "J1" H 8518 3917 50  0000 C CNN
@@ -544,12 +544,12 @@ Connection ~ 8400 4050
 Wire Wire Line
 	8400 4050 8450 4050
 $Comp
-L conectores-rescue:1N4148-Diode D1
+L Poncho_rUVot-rescue:1N4148-Diode-conectores-rescue D1
 U 1 1 60659DD3
 P 7050 4700
 F 0 "D1" V 7004 4780 50  0000 L CNN
 F 1 "1N4148" V 7095 4780 50  0000 L CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 7050 4525 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 7050 4525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7050 4700 50  0001 C CNN
 	1    7050 4700
 	0    1    1    0   
@@ -573,7 +573,7 @@ Connection ~ 7650 5150
 Wire Wire Line
 	7650 5150 7650 5350
 $Comp
-L conectores-rescue:R-Device R4
+L Poncho_rUVot-rescue:R-Device-conectores-rescue R4
 U 1 1 6069C7E8
 P 6700 4500
 F 0 "R4" H 6631 4454 50  0000 R CNN
@@ -584,12 +584,12 @@ F 3 "~" H 6700 4500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L conectores-rescue:LED-Device D2
+L Poncho_rUVot-rescue:LED-Device-conectores-rescue D2
 U 1 1 6069CC76
 P 6700 4800
 F 0 "D2" V 6739 4682 50  0000 R CNN
 F 1 "LED" V 6648 4682 50  0000 R CNN
-F 2 "LEDs:LED_D5.0mm" H 6700 4800 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 6700 4800 50  0001 C CNN
 F 3 "~" H 6700 4800 50  0001 C CNN
 	1    6700 4800
 	0    -1   -1   0   
@@ -609,7 +609,7 @@ Wire Notes Line
 Text Notes 3950 3900 0    50   ~ 0
 Conector I2C Acelerómetro\n
 $Comp
-L conectores-rescue:Conn_01x08-Connector_Generic P9
+L Poncho_rUVot-rescue:Conn_01x08-Connector_Generic-conectores-rescue P9
 U 1 1 606C4AD7
 P 5350 4600
 F 0 "P9" H 5268 5117 50  0000 C CNN
@@ -620,7 +620,7 @@ F 3 "~" H 5350 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:+5V-power #PWR0121
+L Poncho_rUVot-rescue:+5V-power-conectores-rescue #PWR0121
 U 1 1 606CBFD5
 P 4450 4300
 F 0 "#PWR0121" H 4450 4150 50  0001 C CNN
@@ -631,7 +631,7 @@ F 3 "" H 4450 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:GND-power #PWR0122
+L Poncho_rUVot-rescue:GND-power-conectores-rescue #PWR0122
 U 1 1 606CC4AB
 P 4450 4450
 F 0 "#PWR0122" H 4450 4200 50  0001 C CNN
@@ -648,7 +648,7 @@ Wire Notes Line
 Wire Notes Line
 	6050 3750 6050 5200
 $Comp
-L conectores-rescue:GND-power #PWR0123
+L Poncho_rUVot-rescue:GND-power-conectores-rescue #PWR0123
 U 1 1 605D65B8
 P 7650 5900
 F 0 "#PWR0123" H 7650 5650 50  0001 C CNN
@@ -659,7 +659,7 @@ F 3 "" H 7650 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:BC548-Transistor_BJT Q1
+L Poncho_rUVot-rescue:BC548-Transistor_BJT-conectores-rescue Q1
 U 1 1 60530A06
 P 7550 5550
 F 0 "Q1" H 7741 5596 50  0000 L CNN
@@ -810,7 +810,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 2300 7800 2300
 $Comp
-L conectores-rescue:GND-power #PWR0107
+L Poncho_rUVot-rescue:GND-power-conectores-rescue #PWR0107
 U 1 1 60729492
 P 7250 1600
 F 0 "#PWR0107" H 7250 1350 50  0001 C CNN
@@ -821,7 +821,7 @@ F 3 "" H 7250 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:Conn_01x02-Connector_Generic P5
+L Poncho_rUVot-rescue:Conn_01x02-Connector_Generic-conectores-rescue P5
 U 1 1 60729499
 P 8000 1600
 F 0 "P5" H 7918 1817 50  0000 C CNN
@@ -837,7 +837,7 @@ Wire Wire Line
 Text Label 7700 1700 2    50   ~ 0
 GPIO6
 $Comp
-L conectores-rescue:Conn_01x03-Connector_Generic P1
+L Poncho_rUVot-rescue:Conn_01x03-Connector_Generic-conectores-rescue P1
 U 1 1 60731B65
 P 5200 1600
 F 0 "P1" H 5118 1917 50  0000 C CNN
@@ -849,7 +849,7 @@ F 4 "Sensor Frontal" H 5118 1826 50  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:+5V-power #PWR0101
+L Poncho_rUVot-rescue:+5V-power-conectores-rescue #PWR0101
 U 1 1 60731B6B
 P 4450 1500
 F 0 "#PWR0101" H 4450 1350 50  0001 C CNN
@@ -860,7 +860,7 @@ F 3 "" H 4450 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:GND-power #PWR0102
+L Poncho_rUVot-rescue:GND-power-conectores-rescue #PWR0102
 U 1 1 60731B71
 P 4450 1600
 F 0 "#PWR0102" H 4450 1350 50  0001 C CNN
@@ -879,7 +879,7 @@ GPIO0
 Wire Wire Line
 	4900 1700 5000 1700
 $Comp
-L conectores-rescue:Conn_01x03-Connector_Generic P2
+L Poncho_rUVot-rescue:Conn_01x03-Connector_Generic-conectores-rescue P2
 U 1 1 6074F498
 P 5200 2450
 F 0 "P2" H 5118 2767 50  0000 C CNN
@@ -891,7 +891,7 @@ F 4 "Sensor Lateral" H 5118 2676 50  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:+5V-power #PWR0103
+L Poncho_rUVot-rescue:+5V-power-conectores-rescue #PWR0103
 U 1 1 6074F49E
 P 4450 2350
 F 0 "#PWR0103" H 4450 2200 50  0001 C CNN
@@ -902,7 +902,7 @@ F 3 "" H 4450 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:GND-power #PWR0104
+L Poncho_rUVot-rescue:GND-power-conectores-rescue #PWR0104
 U 1 1 6074F4A4
 P 4450 2450
 F 0 "#PWR0104" H 4450 2200 50  0001 C CNN
@@ -1005,7 +1005,7 @@ Wire Notes Line
 Wire Notes Line
 	750  750  750  7150
 $Comp
-L conectores-rescue:GND-power #PWR0111
+L Poncho_rUVot-rescue:GND-power-conectores-rescue #PWR0111
 U 1 1 608EC6E9
 P 1400 6700
 F 0 "#PWR0111" H 1400 6450 50  0001 C CNN
@@ -1016,7 +1016,7 @@ F 3 "" H 1400 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conectores-rescue:GND-power #PWR0112
+L Poncho_rUVot-rescue:GND-power-conectores-rescue #PWR0112
 U 1 1 608FA01E
 P 3000 3550
 F 0 "#PWR0112" H 3000 3300 50  0001 C CNN
