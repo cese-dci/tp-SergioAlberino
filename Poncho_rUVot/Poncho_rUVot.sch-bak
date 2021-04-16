@@ -280,7 +280,7 @@ U 1 1 60453DD7
 P 6650 1600
 F 0 "P3" H 6568 1917 50  0000 C CNN
 F 1 "Conn_01x04" H 6568 1826 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Horizontal" H 6650 1600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 6650 1600 50  0001 C CNN
 F 3 "~" H 6650 1600 50  0001 C CNN
 F 4 "Button" H 6568 1826 50  0000 C CNN "Field4"
 	1    6650 1600
@@ -303,7 +303,7 @@ U 1 1 6045EFA2
 P 8000 2200
 F 0 "P6" H 7918 2417 50  0000 C CNN
 F 1 "Conn_01x02" H 7918 2326 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal" H 8000 2200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 8000 2200 50  0001 C CNN
 F 3 "~" H 8000 2200 50  0001 C CNN
 F 4 "Final de carrera 2" H 7918 2326 50  0000 C CNN "Field4"
 	1    8000 2200
@@ -315,7 +315,7 @@ U 1 1 60461281
 P 6650 2450
 F 0 "P4" H 6568 2767 50  0000 C CNN
 F 1 "Conn_01x03" H 6568 2676 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal" H 6650 2450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 6650 2450 50  0001 C CNN
 F 3 "~" H 6650 2450 50  0001 C CNN
 F 4 "sensor de movimiento" H 6568 2676 50  0000 C CNN "Field4"
 	1    6650 2450
@@ -349,7 +349,7 @@ U 1 1 60476D23
 P 10550 2900
 F 0 "P8" H 10468 3217 50  0000 C CNN
 F 1 "Conn_01x04" H 10468 3126 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Horizontal" H 10550 2900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 10550 2900 50  0001 C CNN
 F 3 "~" H 10550 2900 50  0001 C CNN
 F 4 "Motor" H 10468 3126 50  0000 C CNN "Field4"
 	1    10550 2900
@@ -450,7 +450,7 @@ U 1 1 6052981E
 P 10550 1450
 F 0 "P7" H 10468 1867 50  0000 C CNN
 F 1 "Conn_01x06" H 10468 1776 50  0001 C CNN
-F 2 "Connector_PinSocket_1.00mm:PinSocket_1x06_P1.00mm_Vertical" H 10550 1450 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 10550 1450 50  0001 C CNN
 F 3 "~" H 10550 1450 50  0001 C CNN
 F 4 "Módulo BT" H 10468 1776 50  0000 C CNN "Field4"
 	1    10550 1450
@@ -510,21 +510,6 @@ Wire Wire Line
 	8400 5100 8050 5100
 Wire Wire Line
 	8050 5100 8050 5000
-Connection ~ 8150 4400
-$Comp
-L Poncho_rUVot-rescue:G5V-1-Relay-conectores-rescue K1
-U 1 1 60534F55
-P 7850 4700
-F 0 "K1" H 8280 4700 50  0000 L CNN
-F 1 "G5V-1" H 8280 4655 50  0001 L CNN
-F 2 "Relay_THT:Relay_DPDT_AXICOM_IMSeries_Pitch5.08mm" H 8280 4655 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf" H 7850 4700 50  0001 C CNN
-	1    7850 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7650 4950 7650 5000
-Connection ~ 7650 5000
 Text Notes 9200 2400 0    50   ~ 0
 Conector Driver MOTOR
 $Comp
@@ -533,7 +518,7 @@ U 1 1 606412BA
 P 8600 4150
 F 0 "J1" H 8518 3917 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 8518 3916 50  0001 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 8600 4150 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 8600 4150 50  0001 C CNN
 F 3 "~" H 8600 4150 50  0001 C CNN
 	1    8600 4150
 	1    0    0    1   
@@ -563,8 +548,6 @@ Wire Wire Line
 Connection ~ 7650 4250
 Wire Wire Line
 	7650 4250 7650 4400
-Wire Wire Line
-	7650 5000 7650 5150
 Wire Wire Line
 	7650 5150 7050 5150
 Wire Wire Line
@@ -614,7 +597,7 @@ U 1 1 606C4AD7
 P 5350 4600
 F 0 "P9" H 5268 5117 50  0000 C CNN
 F 1 "Conn_01x08" H 5268 5026 50  0000 C CNN
-F 2 "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical" H 5350 4600 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 5350 4600 50  0001 C CNN
 F 3 "~" H 5350 4600 50  0001 C CNN
 	1    5350 4600
 	1    0    0    -1  
@@ -826,7 +809,7 @@ U 1 1 60729499
 P 8000 1600
 F 0 "P5" H 7918 1817 50  0000 C CNN
 F 1 "Conn_01x02" H 7918 1726 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal" H 8000 1600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 8000 1600 50  0001 C CNN
 F 3 "~" H 8000 1600 50  0001 C CNN
 F 4 "Final de carrera 2" H 7918 1726 50  0000 C CNN "Field4"
 	1    8000 1600
@@ -842,7 +825,7 @@ U 1 1 60731B65
 P 5200 1600
 F 0 "P1" H 5118 1917 50  0000 C CNN
 F 1 "Conn_01x03" H 5118 1826 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal" H 5200 1600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 5200 1600 50  0001 C CNN
 F 3 "~" H 5200 1600 50  0001 C CNN
 F 4 "Sensor Frontal" H 5118 1826 50  0000 C CNN "Field4"
 	1    5200 1600
@@ -884,7 +867,7 @@ U 1 1 6074F498
 P 5200 2450
 F 0 "P2" H 5118 2767 50  0000 C CNN
 F 1 "Conn_01x03" H 5118 2676 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal" H 5200 2450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 5200 2450 50  0001 C CNN
 F 3 "~" H 5200 2450 50  0001 C CNN
 F 4 "Sensor Lateral" H 5118 2676 50  0000 C CNN "Field4"
 	1    5200 2450
@@ -1033,4 +1016,21 @@ NoConn ~ 2850 1950
 NoConn ~ 2850 2050
 NoConn ~ 2850 2150
 NoConn ~ 2850 2250
+$Comp
+L Relay:SANYOU_SRD_Form_C K1
+U 1 1 607A9B17
+P 7850 4700
+F 0 "K1" H 8280 4746 50  0000 L CNN
+F 1 "SANYOU_SRD_Form_C" H 8280 4655 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 8300 4650 50  0001 L CNN
+F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 7850 4700 50  0001 C CNN
+	1    7850 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4950 7650 5000
+Connection ~ 7650 5000
+Wire Wire Line
+	7650 5000 7650 5150
+Connection ~ 8150 4400
 $EndSCHEMATC
