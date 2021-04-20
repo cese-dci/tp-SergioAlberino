@@ -349,7 +349,7 @@ U 1 1 60476D23
 P 10550 2900
 F 0 "P8" H 10468 3217 50  0000 C CNN
 F 1 "Conn_01x04" H 10468 3126 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 10550 2900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10550 2900 50  0001 C CNN
 F 3 "~" H 10550 2900 50  0001 C CNN
 F 4 "Motor" H 10468 3126 50  0000 C CNN "Field4"
 	1    10550 2900
@@ -372,7 +372,7 @@ U 1 1 604E7631
 P 10350 5550
 F 0 "Q2" H 10541 5596 50  0000 L CNN
 F 1 "BC548" H 10541 5505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10550 5475 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L" H 10550 5475 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 10350 5550 50  0001 L CNN
 	1    10350 5550
 	1    0    0    -1  
@@ -513,22 +513,6 @@ Wire Wire Line
 Text Notes 9200 2400 0    50   ~ 0
 Conector Driver MOTOR
 $Comp
-L Poncho_rUVot-rescue:Screw_Terminal_01x03-Connector-conectores-rescue J1
-U 1 1 606412BA
-P 8600 4150
-F 0 "J1" H 8518 3917 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 8518 3916 50  0001 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 8600 4150 50  0001 C CNN
-F 3 "~" H 8600 4150 50  0001 C CNN
-	1    8600 4150
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	7950 4050 8400 4050
-Connection ~ 8400 4050
-Wire Wire Line
-	8400 4050 8450 4050
-$Comp
 L Poncho_rUVot-rescue:1N4148-Diode-conectores-rescue D1
 U 1 1 60659DD3
 P 7050 4700
@@ -647,7 +631,7 @@ U 1 1 60530A06
 P 7550 5550
 F 0 "Q1" H 7741 5596 50  0000 L CNN
 F 1 "BC548" H 7741 5505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7750 5475 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L" H 7750 5475 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 7550 5550 50  0001 L CNN
 	1    7550 5550
 	1    0    0    -1  
@@ -783,7 +767,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 2450 6450 2450
 Text Label 6350 2550 2    50   ~ 0
-GPIO8
+GPIO6
 Wire Wire Line
 	6350 2550 6450 2550
 Text Label 7700 2300 2    50   ~ 0
@@ -818,7 +802,7 @@ $EndComp
 Wire Wire Line
 	7700 1700 7800 1700
 Text Label 7700 1700 2    50   ~ 0
-GPIO6
+GPIO8
 $Comp
 L Poncho_rUVot-rescue:Conn_01x03-Connector_Generic-conectores-rescue P1
 U 1 1 60731B65
@@ -1104,4 +1088,45 @@ F0 F1 C7 FC EA 6A 9E 99 E9 99 DD 7A 0F 39 96 E7 C9 34 C0 06 23 B0 47 07 8E 72 EC
 10 E2 4B CF 7A 10 2F 30 94 FF 02 49 D3 99 1E EE 5C C1 89 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L Poncho_rUVot-rescue:+5V #PWR0118
+U 1 1 6080CF4B
+P 2300 4000
+F 0 "#PWR0118" H 2300 4090 20  0001 C CNN
+F 1 "+5V" H 2300 4150 30  0000 C CNN
+F 2 "" H 2300 4000 60  0000 C CNN
+F 3 "" H 2300 4000 60  0000 C CNN
+	1    2300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Poncho_rUVot-rescue:+5VP #PWR0119
+U 1 1 608141D3
+P 2050 4000
+F 0 "#PWR0119" H 2050 4090 20  0001 C CNN
+F 1 "+5VP" H 2050 4150 30  0000 C CNN
+F 2 "" H 2050 4000 60  0000 C CNN
+F 3 "" H 2050 4000 60  0000 C CNN
+	1    2050 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4000 2050 4100
+Wire Wire Line
+	2050 4100 2300 4100
+Wire Wire Line
+	2300 4100 2300 4000
+$Comp
+L Poncho_rUVot-rescue:Screw_Terminal_01x03-Connector-conectores-rescue J1
+U 1 1 606412BA
+P 8600 4150
+F 0 "J1" H 8518 3917 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 8518 3916 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 8600 4150 50  0001 C CNN
+F 3 "~" H 8600 4150 50  0001 C CNN
+	1    8600 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4050 8400 4050
 $EndSCHEMATC
