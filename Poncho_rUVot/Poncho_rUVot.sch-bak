@@ -279,10 +279,10 @@ L Poncho_rUVot-rescue:Conn_01x04-Connector_Generic-conectores-rescue P3
 U 1 1 60453DD7
 P 6650 1600
 F 0 "P3" H 6568 1917 50  0000 C CNN
-F 1 "Conn_01x04" H 6568 1826 50  0001 C CNN
+F 1 "Conn_01x04" H 6568 1826 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 6650 1600 50  0001 C CNN
 F 3 "~" H 6650 1600 50  0001 C CNN
-F 4 "Button" H 6568 1826 50  0000 C CNN "Field4"
+F 4 "Button" H 6650 1300 50  0000 C CNN "Field4"
 	1    6650 1600
 	1    0    0    -1  
 $EndComp
@@ -298,26 +298,14 @@ F 3 "" H 7250 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Poncho_rUVot-rescue:Conn_01x02-Connector_Generic-conectores-rescue P6
-U 1 1 6045EFA2
-P 8000 2200
-F 0 "P6" H 7918 2417 50  0000 C CNN
-F 1 "Conn_01x02" H 7918 2326 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 8000 2200 50  0001 C CNN
-F 3 "~" H 8000 2200 50  0001 C CNN
-F 4 "Final de carrera 2" H 7918 2326 50  0000 C CNN "Field4"
-	1    8000 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Poncho_rUVot-rescue:Conn_01x03-Connector_Generic-conectores-rescue P4
 U 1 1 60461281
 P 6650 2450
 F 0 "P4" H 6568 2767 50  0000 C CNN
-F 1 "Conn_01x03" H 6568 2676 50  0001 C CNN
+F 1 "Conn_01x03" H 6568 2676 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 6650 2450 50  0001 C CNN
 F 3 "~" H 6650 2450 50  0001 C CNN
-F 4 "sensor de movimiento" H 6568 2676 50  0000 C CNN "Field4"
+F 4 "Sensor de movimiento" H 6650 2250 50  0000 C CNN "Field4"
 	1    6650 2450
 	1    0    0    -1  
 $EndComp
@@ -348,10 +336,10 @@ L Poncho_rUVot-rescue:Conn_01x04-Connector_Generic-conectores-rescue P8
 U 1 1 60476D23
 P 10550 2900
 F 0 "P8" H 10468 3217 50  0000 C CNN
-F 1 "Conn_01x04" H 10468 3126 50  0001 C CNN
+F 1 "Conn_01x04" H 10468 3126 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10550 2900 50  0001 C CNN
 F 3 "~" H 10550 2900 50  0001 C CNN
-F 4 "Motor" H 10468 3126 50  0000 C CNN "Field4"
+F 4 "Motor" H 10550 2600 50  0000 C CNN "Field4"
 	1    10550 2900
 	1    0    0    -1  
 $EndComp
@@ -359,10 +347,10 @@ $Comp
 L Poncho_rUVot-rescue:Buzzer-Device-conectores-rescue BZ1
 U 1 1 604E6A0D
 P 10350 4850
-F 0 "BZ1" H 10355 5140 50  0000 C CNN
-F 1 "Buzzer" H 10355 5049 50  0000 C CNN
+F 0 "BZ1" H 10400 5150 50  0000 C CNN
+F 1 "Buzzer" H 10400 5050 50  0000 C CNN
 F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 10325 4950 50  0001 C CNN
-F 3 "~" V 10325 4950 50  0001 C CNN
+F 3 "http://www.electronicoscaldas.com/datasheet/LTE12-Series.pdf" V 10325 4950 50  0001 C CNN
 	1    10350 4850
 	-1   0    0    -1  
 $EndComp
@@ -449,10 +437,10 @@ L Poncho_rUVot-rescue:Conn_01x06-Connector_Generic-conectores-rescue P7
 U 1 1 6052981E
 P 10550 1450
 F 0 "P7" H 10468 1867 50  0000 C CNN
-F 1 "Conn_01x06" H 10468 1776 50  0001 C CNN
+F 1 "Conn_01x06" H 10468 1776 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 10550 1450 50  0001 C CNN
 F 3 "~" H 10550 1450 50  0001 C CNN
-F 4 "Módulo BT" H 10468 1776 50  0000 C CNN "Field4"
+F 4 "Módulo BT" H 10500 1050 50  0000 C CNN "Field4"
 	1    10550 1450
 	1    0    0    -1  
 $EndComp
@@ -583,6 +571,7 @@ F 0 "P9" H 5268 5117 50  0000 C CNN
 F 1 "Conn_01x08" H 5268 5026 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 5350 4600 50  0001 C CNN
 F 3 "~" H 5350 4600 50  0001 C CNN
+F 4 "Acelerometro" H 5300 4100 50  0000 C CNN "Field4"
 	1    5350 4600
 	1    0    0    -1  
 $EndComp
@@ -792,10 +781,10 @@ L Poncho_rUVot-rescue:Conn_01x02-Connector_Generic-conectores-rescue P5
 U 1 1 60729499
 P 8000 1600
 F 0 "P5" H 7918 1817 50  0000 C CNN
-F 1 "Conn_01x02" H 7918 1726 50  0001 C CNN
+F 1 "Conn_01x02" H 7918 1726 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 8000 1600 50  0001 C CNN
 F 3 "~" H 8000 1600 50  0001 C CNN
-F 4 "Final de carrera 2" H 7918 1726 50  0000 C CNN "Field4"
+F 4 "Final de carrera 1" H 7900 1400 50  0000 C CNN "Field4"
 	1    8000 1600
 	1    0    0    -1  
 $EndComp
@@ -808,10 +797,10 @@ L Poncho_rUVot-rescue:Conn_01x03-Connector_Generic-conectores-rescue P1
 U 1 1 60731B65
 P 5200 1600
 F 0 "P1" H 5118 1917 50  0000 C CNN
-F 1 "Conn_01x03" H 5118 1826 50  0001 C CNN
+F 1 "Conn_01x03" H 5118 1826 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 5200 1600 50  0001 C CNN
 F 3 "~" H 5200 1600 50  0001 C CNN
-F 4 "Sensor Frontal" H 5118 1826 50  0000 C CNN "Field4"
+F 4 "Sensor Frontal" H 5150 1400 50  0000 C CNN "Field4"
 	1    5200 1600
 	1    0    0    -1  
 $EndComp
@@ -850,10 +839,10 @@ L Poncho_rUVot-rescue:Conn_01x03-Connector_Generic-conectores-rescue P2
 U 1 1 6074F498
 P 5200 2450
 F 0 "P2" H 5118 2767 50  0000 C CNN
-F 1 "Conn_01x03" H 5118 2676 50  0001 C CNN
+F 1 "Conn_01x03" H 5118 2676 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 5200 2450 50  0001 C CNN
 F 3 "~" H 5200 2450 50  0001 C CNN
-F 4 "Sensor Lateral" H 5118 2676 50  0000 C CNN "Field4"
+F 4 "Sensor Lateral" H 5150 2250 50  0000 C CNN "Field4"
 	1    5200 2450
 	1    0    0    -1  
 $EndComp
@@ -1121,12 +1110,25 @@ L Poncho_rUVot-rescue:Screw_Terminal_01x03-Connector-conectores-rescue J1
 U 1 1 606412BA
 P 8600 4150
 F 0 "J1" H 8518 3917 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 8518 3916 50  0001 C CNN
+F 1 "Screw_Terminal_01x03" H 8300 4350 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 8600 4150 50  0001 C CNN
 F 3 "~" H 8600 4150 50  0001 C CNN
+F 4 "" H 8600 4150 50  0001 C CNN "Field4"
 	1    8600 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7950 4050 8400 4050
+$Comp
+L Poncho_rUVot-rescue:Conn_01x02-Connector_Generic-conectores-rescue P6
+U 1 1 6045EFA2
+P 8000 2200
+F 0 "P6" H 7918 2417 50  0000 C CNN
+F 1 "Conn_01x02" H 7918 2326 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 8000 2200 50  0001 C CNN
+F 3 "~" H 8000 2200 50  0001 C CNN
+F 4 "Final de carrera 2" H 7900 2000 50  0000 C CNN "Field4"
+	1    8000 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -338,7 +338,7 @@ U 1 1 604E7631
 P 10350 5550
 F 0 "Q2" H 10541 5596 50  0000 L CNN
 F 1 "BC548" H 10541 5505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92L" H 10550 5475 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 10550 5475 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 10350 5550 50  0001 L CNN
 	1    10350 5550
 	1    0    0    -1  
@@ -598,7 +598,7 @@ U 1 1 60530A06
 P 7550 5550
 F 0 "Q1" H 7741 5596 50  0000 L CNN
 F 1 "BC548" H 7741 5505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92L" H 7750 5475 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 7750 5475 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 7550 5550 50  0001 L CNN
 	1    7550 5550
 	1    0    0    -1  
@@ -1129,6 +1129,17 @@ F 1 "Logo_Poncho" H 4350 6850 60  0001 C CNN
 F 2 "Poncho_Esqueleto:Logo_Poncho" H 4150 7250 60  0001 C CNN
 F 3 "" H 4150 7250 60  0001 C CNN
 	1    4150 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 608D861A
+P 4200 6000
+F 0 "H1" H 4300 6046 50  0000 L CNN
+F 1 "MountingHole" H 4300 5955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 4200 6000 50  0001 C CNN
+F 3 "~" H 4200 6000 50  0001 C CNN
+	1    4200 6000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

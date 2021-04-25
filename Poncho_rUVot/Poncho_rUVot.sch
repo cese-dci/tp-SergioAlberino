@@ -14,28 +14,6 @@ Comment3 "Autor del poncho: Sergio Alberino. Revisor: Pablo Daniel Folino"
 Comment4 "Este obra está bajo una licencia de Creative Commons Reconocimiento 4.0 Internacional"
 $EndDescr
 $Comp
-L Poncho_rUVot-rescue:OSHWA #G102
-U 1 1 560A0A28
-P 5200 7300
-F 0 "#G102" H 5170 7700 60  0001 C CNN
-F 1 "OSHWA" H 5200 7603 60  0001 C CNN
-F 2 "Poncho_Esqueleto:Logo_OSHWA" H 5200 7300 60  0001 C CNN
-F 3 "" H 5200 7300 60  0000 C CNN
-	1    5200 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Poncho_rUVot-rescue:Logo_Poncho #G101
-U 1 1 560CFFC0
-P 4150 7250
-F 0 "#G101" H 4100 6850 60  0001 C CNN
-F 1 "Logo_Poncho" H 4350 6850 60  0001 C CNN
-F 2 "Poncho_Esqueleto:Logo_Poncho" H 4150 7250 60  0001 C CNN
-F 3 "" H 4150 7250 60  0001 C CNN
-	1    4150 7250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Poncho_rUVot-rescue:+3.3V #PWR01
 U 1 1 560EB699
 P 1100 1300
@@ -1129,6 +1107,28 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 8000 2200 5
 F 3 "~" H 8000 2200 50  0001 C CNN
 F 4 "Final de carrera 2" H 7900 2000 50  0000 C CNN "Field4"
 	1    8000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Poncho_rUVot-rescue:OSHWA #G102
+U 1 1 560A0A28
+P 5200 7300
+F 0 "#G102" H 5170 7700 60  0001 C CNN
+F 1 "OSHWA" H 5200 7603 60  0001 C CNN
+F 2 "Poncho_Esqueleto:Logo_OSHWA" H 5200 7300 60  0001 C CNN
+F 3 "" H 5200 7300 60  0000 C CNN
+	1    5200 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Poncho_rUVot-rescue:Logo_Poncho #G101
+U 1 1 560CFFC0
+P 4150 7250
+F 0 "#G101" H 4100 6850 60  0001 C CNN
+F 1 "Logo_Poncho" H 4350 6850 60  0001 C CNN
+F 2 "Poncho_Esqueleto:Logo_Poncho" H 4150 7250 60  0001 C CNN
+F 3 "" H 4150 7250 60  0001 C CNN
+	1    4150 7250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
