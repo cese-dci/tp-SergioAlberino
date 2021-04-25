@@ -1,6 +1,21 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
 # Poncho_rUVot-rescue_+3.3V
 #
 DEF Poncho_rUVot-rescue_+3.3V #PWR 0 0 Y Y 1 F P
@@ -347,6 +362,19 @@ X GND 77 -250 -1500 200 R 50 50 2 1 P
 X GPIO7 78 950 -1500 200 L 50 50 2 1 P
 X GND 79 -250 -1600 200 R 50 50 2 1 P
 X GPIO8 80 950 -1600 200 L 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# Poncho_rUVot-rescue_GND
+#
+DEF Poncho_rUVot-rescue_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Poncho_rUVot-rescue_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

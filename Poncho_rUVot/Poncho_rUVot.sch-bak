@@ -14,28 +14,6 @@ Comment3 "Autor del poncho: Sergio Alberino. Revisor: Pablo Daniel Folino"
 Comment4 "Este obra está bajo una licencia de Creative Commons Reconocimiento 4.0 Internacional"
 $EndDescr
 $Comp
-L Poncho_rUVot-rescue:OSHWA #G102
-U 1 1 560A0A28
-P 5200 7300
-F 0 "#G102" H 5170 7700 60  0001 C CNN
-F 1 "OSHWA" H 5200 7603 60  0001 C CNN
-F 2 "Poncho_Esqueleto:Logo_OSHWA" H 5200 7300 60  0001 C CNN
-F 3 "" H 5200 7300 60  0000 C CNN
-	1    5200 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Poncho_rUVot-rescue:Logo_Poncho #G101
-U 1 1 560CFFC0
-P 4150 7250
-F 0 "#G101" H 4100 6850 60  0001 C CNN
-F 1 "Logo_Poncho" H 4350 6850 60  0001 C CNN
-F 2 "Poncho_Esqueleto:Logo_Poncho" H 4150 7250 60  0001 C CNN
-F 3 "" H 4150 7250 60  0001 C CNN
-	1    4150 7250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Poncho_rUVot-rescue:+3.3V #PWR01
 U 1 1 560EB699
 P 1100 1300
@@ -167,8 +145,6 @@ Wire Wire Line
 	1600 4650 1250 4650
 Wire Wire Line
 	1250 4650 1250 4500
-Wire Wire Line
-	2800 4650 3250 4650
 Wire Wire Line
 	3250 4650 3250 4400
 Wire Wire Line
@@ -360,7 +336,7 @@ U 1 1 604E7631
 P 10350 5550
 F 0 "Q2" H 10541 5596 50  0000 L CNN
 F 1 "BC548" H 10541 5505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92L" H 10550 5475 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 10550 5475 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 10350 5550 50  0001 L CNN
 	1    10350 5550
 	1    0    0    -1  
@@ -620,7 +596,7 @@ U 1 1 60530A06
 P 7550 5550
 F 0 "Q1" H 7741 5596 50  0000 L CNN
 F 1 "BC548" H 7741 5505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92L" H 7750 5475 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 7750 5475 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 7550 5550 50  0001 L CNN
 	1    7550 5550
 	1    0    0    -1  
@@ -982,7 +958,6 @@ F 3 "" H 3000 3550 50  0001 C CNN
 	1    3000 3550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1600 1750
 NoConn ~ 2850 1750
 NoConn ~ 2850 1850
 NoConn ~ 2850 1950
@@ -1078,34 +1053,6 @@ F0 F1 C7 FC EA 6A 9E 99 E9 99 DD 7A 0F 39 96 E7 C9 34 C0 06 23 B0 47 07 8E 72 EC
 EndData
 $EndBitmap
 $Comp
-L Poncho_rUVot-rescue:+5V #PWR0118
-U 1 1 6080CF4B
-P 2300 4000
-F 0 "#PWR0118" H 2300 4090 20  0001 C CNN
-F 1 "+5V" H 2300 4150 30  0000 C CNN
-F 2 "" H 2300 4000 60  0000 C CNN
-F 3 "" H 2300 4000 60  0000 C CNN
-	1    2300 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Poncho_rUVot-rescue:+5VP #PWR0119
-U 1 1 608141D3
-P 2050 4000
-F 0 "#PWR0119" H 2050 4090 20  0001 C CNN
-F 1 "+5VP" H 2050 4150 30  0000 C CNN
-F 2 "" H 2050 4000 60  0000 C CNN
-F 3 "" H 2050 4000 60  0000 C CNN
-	1    2050 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 4000 2050 4100
-Wire Wire Line
-	2050 4100 2300 4100
-Wire Wire Line
-	2300 4100 2300 4000
-$Comp
 L Poncho_rUVot-rescue:Screw_Terminal_01x03-Connector-conectores-rescue J1
 U 1 1 606412BA
 P 8600 4150
@@ -1131,4 +1078,110 @@ F 4 "Final de carrera 2" H 7900 2000 50  0000 C CNN "Field4"
 	1    8000 2200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Poncho_rUVot-rescue:OSHWA #G102
+U 1 1 560A0A28
+P 5200 7300
+F 0 "#G102" H 5170 7700 60  0001 C CNN
+F 1 "OSHWA" H 5200 7603 60  0001 C CNN
+F 2 "Poncho_Esqueleto:Logo_OSHWA" H 5200 7300 60  0001 C CNN
+F 3 "" H 5200 7300 60  0000 C CNN
+	1    5200 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Poncho_rUVot-rescue:Logo_Poncho #G101
+U 1 1 560CFFC0
+P 4150 7250
+F 0 "#G101" H 4100 6850 60  0001 C CNN
+F 1 "Logo_Poncho" H 4350 6850 60  0001 C CNN
+F 2 "Poncho_Esqueleto:Logo_Poncho" H 4150 7250 60  0001 C CNN
+F 3 "" H 4150 7250 60  0001 C CNN
+	1    4150 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 608D861A
+P 4200 6000
+F 0 "H1" H 4300 6046 50  0000 L CNN
+F 1 "MountingHole" H 4300 5955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 4200 6000 50  0001 C CNN
+F 3 "~" H 4200 6000 50  0001 C CNN
+	1    4200 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4650 3250 4650
+$Comp
+L Poncho_rUVot-rescue:GNDA #PWR0120
+U 1 1 6086782B
+P 1100 1800
+F 0 "#PWR0120" H 1100 1550 50  0001 C CNN
+F 1 "GNDA" H 1105 1627 50  0000 C CNN
+F 2 "" H 1100 1800 50  0000 C CNN
+F 3 "" H 1100 1800 50  0000 C CNN
+	1    1100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1750 1100 1800
+Wire Wire Line
+	1100 1750 1600 1750
+$Comp
+L Poncho_rUVot-rescue:+5V #PWR0118
+U 1 1 6080CF4B
+P 2600 3900
+F 0 "#PWR0118" H 2600 3990 20  0001 C CNN
+F 1 "+5V" H 2600 4050 30  0000 C CNN
+F 2 "" H 2600 3900 60  0000 C CNN
+F 3 "" H 2600 3900 60  0000 C CNN
+	1    2600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Poncho_rUVot-rescue:+5VP #PWR0119
+U 1 1 608141D3
+P 2350 3900
+F 0 "#PWR0119" H 2350 3990 20  0001 C CNN
+F 1 "+5VP" H 2350 4050 30  0000 C CNN
+F 2 "" H 2350 3900 60  0000 C CNN
+F 3 "" H 2350 3900 60  0000 C CNN
+	1    2350 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3900 2350 4000
+Wire Wire Line
+	2350 4000 2600 4000
+Wire Wire Line
+	2600 4000 2600 3900
+$Comp
+L Poncho_rUVot-rescue:GNDA #PWR0124
+U 1 1 6087654C
+P 1450 3900
+F 0 "#PWR0124" H 1450 3650 50  0001 C CNN
+F 1 "GNDA" H 1455 3727 50  0000 C CNN
+F 2 "" H 1450 3900 50  0000 C CNN
+F 3 "" H 1450 3900 50  0000 C CNN
+	1    1450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Poncho_rUVot-rescue:GND #PWR0125
+U 1 1 60876D3D
+P 1800 3900
+F 0 "#PWR0125" H 1800 3650 50  0001 C CNN
+F 1 "GND" H 1805 3727 50  0000 C CNN
+F 2 "" H 1800 3900 50  0000 C CNN
+F 3 "" H 1800 3900 50  0000 C CNN
+	1    1800 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3900 1450 3800
+Wire Wire Line
+	1450 3800 1800 3800
+Wire Wire Line
+	1800 3800 1800 3900
 $EndSCHEMATC

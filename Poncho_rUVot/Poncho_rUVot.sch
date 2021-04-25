@@ -58,7 +58,7 @@ F 3 "" H 3250 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 1550 3000 2350
+	3000 1550 3000 1750
 Wire Wire Line
 	3000 3250 2800 3250
 Connection ~ 3000 3350
@@ -130,23 +130,11 @@ F 3 "" H 1250 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 1750 2850 1750
-Wire Wire Line
 	2850 2250 2800 2250
-Wire Wire Line
-	2800 2150 2850 2150
-Wire Wire Line
-	2800 2050 2850 2050
-Wire Wire Line
-	2800 1950 2850 1950
-Wire Wire Line
-	2800 1850 2850 1850
 Wire Wire Line
 	1600 4650 1250 4650
 Wire Wire Line
 	1250 4650 1250 4500
-Wire Wire Line
-	2800 4650 3250 4650
 Wire Wire Line
 	3250 4650 3250 4400
 Wire Wire Line
@@ -338,7 +326,7 @@ U 1 1 604E7631
 P 10350 5550
 F 0 "Q2" H 10541 5596 50  0000 L CNN
 F 1 "BC548" H 10541 5505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92L" H 10550 5475 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 10550 5475 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 10350 5550 50  0001 L CNN
 	1    10350 5550
 	1    0    0    -1  
@@ -598,7 +586,7 @@ U 1 1 60530A06
 P 7550 5550
 F 0 "Q1" H 7741 5596 50  0000 L CNN
 F 1 "BC548" H 7741 5505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92L" H 7750 5475 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 7750 5475 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 7550 5550 50  0001 L CNN
 	1    7550 5550
 	1    0    0    -1  
@@ -960,13 +948,6 @@ F 3 "" H 3000 3550 50  0001 C CNN
 	1    3000 3550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1600 1750
-NoConn ~ 2850 1750
-NoConn ~ 2850 1850
-NoConn ~ 2850 1950
-NoConn ~ 2850 2050
-NoConn ~ 2850 2150
-NoConn ~ 2850 2250
 $Comp
 L Relay:SANYOU_SRD_Form_C K1
 U 1 1 607A9B17
@@ -1056,34 +1037,6 @@ F0 F1 C7 FC EA 6A 9E 99 E9 99 DD 7A 0F 39 96 E7 C9 34 C0 06 23 B0 47 07 8E 72 EC
 EndData
 $EndBitmap
 $Comp
-L Poncho_rUVot-rescue:+5V #PWR0118
-U 1 1 6080CF4B
-P 2300 4000
-F 0 "#PWR0118" H 2300 4090 20  0001 C CNN
-F 1 "+5V" H 2300 4150 30  0000 C CNN
-F 2 "" H 2300 4000 60  0000 C CNN
-F 3 "" H 2300 4000 60  0000 C CNN
-	1    2300 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Poncho_rUVot-rescue:+5VP #PWR0119
-U 1 1 608141D3
-P 2050 4000
-F 0 "#PWR0119" H 2050 4090 20  0001 C CNN
-F 1 "+5VP" H 2050 4150 30  0000 C CNN
-F 2 "" H 2050 4000 60  0000 C CNN
-F 3 "" H 2050 4000 60  0000 C CNN
-	1    2050 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 4000 2050 4100
-Wire Wire Line
-	2050 4100 2300 4100
-Wire Wire Line
-	2300 4100 2300 4000
-$Comp
 L Poncho_rUVot-rescue:Screw_Terminal_01x03-Connector-conectores-rescue J1
 U 1 1 606412BA
 P 8600 4150
@@ -1129,6 +1082,92 @@ F 1 "Logo_Poncho" H 4350 6850 60  0001 C CNN
 F 2 "Poncho_Esqueleto:Logo_Poncho" H 4150 7250 60  0001 C CNN
 F 3 "" H 4150 7250 60  0001 C CNN
 	1    4150 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 608D861A
+P 4200 6000
+F 0 "H1" H 4300 6046 50  0000 L CNN
+F 1 "MountingHole" H 4300 5955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 4200 6000 50  0001 C CNN
+F 3 "~" H 4200 6000 50  0001 C CNN
+	1    4200 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4650 3250 4650
+Wire Wire Line
+	1100 1750 1100 1800
+Wire Wire Line
+	1100 1750 1600 1750
+$Comp
+L Poncho_rUVot-rescue:+5V #PWR0118
+U 1 1 6080CF4B
+P 2350 3950
+F 0 "#PWR0118" H 2350 4040 20  0001 C CNN
+F 1 "+5V" H 2350 4100 30  0000 C CNN
+F 2 "" H 2350 3950 60  0000 C CNN
+F 3 "" H 2350 3950 60  0000 C CNN
+	1    2350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Poncho_rUVot-rescue:+5VP #PWR0119
+U 1 1 608141D3
+P 2100 3950
+F 0 "#PWR0119" H 2100 4040 20  0001 C CNN
+F 1 "+5VP" H 2100 4100 30  0000 C CNN
+F 2 "" H 2100 3950 60  0000 C CNN
+F 3 "" H 2100 3950 60  0000 C CNN
+	1    2100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3950 2100 4050
+Wire Wire Line
+	2100 4050 2350 4050
+Wire Wire Line
+	2350 4050 2350 3950
+Wire Wire Line
+	2800 1750 3000 1750
+Connection ~ 3000 1750
+Wire Wire Line
+	3000 1750 3000 1850
+Wire Wire Line
+	2800 1850 3000 1850
+Connection ~ 3000 1850
+Wire Wire Line
+	3000 1850 3000 1950
+Wire Wire Line
+	2800 1950 3000 1950
+Connection ~ 3000 1950
+Wire Wire Line
+	3000 1950 3000 2050
+Wire Wire Line
+	2800 2050 3000 2050
+Connection ~ 3000 2050
+Wire Wire Line
+	3000 2050 3000 2150
+Wire Wire Line
+	2800 2150 3000 2150
+Connection ~ 3000 2150
+Wire Wire Line
+	3000 2150 3000 2250
+Wire Wire Line
+	2900 2250 3000 2250
+Connection ~ 3000 2250
+Wire Wire Line
+	3000 2250 3000 2350
+$Comp
+L Poncho_rUVot-rescue:GND #PWR?
+U 1 1 608D6CD1
+P 1100 1800
+F 0 "#PWR?" H 1100 1550 50  0001 C CNN
+F 1 "GND" H 1105 1627 50  0000 C CNN
+F 2 "" H 1100 1800 50  0000 C CNN
+F 3 "" H 1100 1800 50  0000 C CNN
+	1    1100 1800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
